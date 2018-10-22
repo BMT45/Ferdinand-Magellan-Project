@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="firstCircumnavigators.rnc" type="application/relax-ng-compact-syntax"?>
+<firstCircumnavigators>
+<header>Herrera (Decade iii, lib. iv, cap. 4) mentions the arrival of <ship>the Victoria</ship>, and says that an accountant and thirteen Castilians had remained behind, arrested at <placeName>Cape Verde</placeName>, and that the King of Portugal's factor sent them on to Lisbon in a ship which came at that time from Calicut.
+Herrera then gives the names of those who came in <ship>the Victoria,</ship> and who went to Court. They were—— </header>
+<perNames>
+<name>Miguel de Rodas, master.</name>
+<name>Martin de Insaurraga, pilot.</name>
+<name>Miguel de Rodas,seaman.</name>
+<name>Nicolas Griego.</name>
+<name>Juan Rodriguez.</name>
+<name>Vasco Gallego (Portuguese).</name>
+<name>Martin de Judicibus.</name>
+<name>Juan de Santander.</name>
+<name>Hernando de Bustamante.</name>
+<name>Antonio Lombardo (Pigafetta).</name>
+<name>Francisco Rodrigues.</name>
+<name>Antonio Fernandes.</name>
+<name>Diego Gallego.</name>
+<name>Juan de Arratia.</name>
+<name>Juan de Apega.</name>
+<name>Juan de Acurio.</name>
+<name>Juan de Zubieta.</name>
+<name>Lorenzo de Iruña.</name>
+<name>Juan de Ortega.</name>
+<name>Pedro de Indarchi.</name>
+<name>Roger Carpinteta.</name>
+<name>Pedro Gasco.</name>
+<name>Alfonso Domingo, seaman.</name>
+<name>Diego Garcia.</name>
+<name>Pedro de Valpuesta.</name>
+<name>Ximeno de Bargos.</name>
+<name>Juan Martin.</name>
+<name>Martin de Magallanes.</name>
+<name>Francisco Alvaro (probably Albo, the pilot).</name>
+</perNames>
+Roldan de Argote (from whom must be named the mountain, which in the Strait of Magellan, is now called the Campaña de Roldan).
+<name>Juan Sebastian del Cano.</name>
+This number, <num>31,</num> will agree with Pigafetta's 13, who remained at Cape Verde, and 18 who landed from <ship>the Victoria.</ship>
+
+Sebastian del Cano was very well received by the emperor, and Herrera mentions the safe arrival of some of the Molucca Indians: "One of whom," he says, "was so sharp, that the first thing he did was to inquire how many reals a ducat was worth, and a real how many maravedises, and how much pepper was given for a maravedi; and he went from shop to shop to get information of the value of spices, and with this he gave cause that he did not return to his country, although the others returned." 
+This probably means that he was not allowed to return, lest he should raise the price of spices in the <placeName>Molucca Islands.</placeName>
+</firstCircumnavigators>
