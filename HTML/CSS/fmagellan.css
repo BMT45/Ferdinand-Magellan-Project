@@ -1,0 +1,10 @@
+body {
+    background-color: #EECD9B;
+    font-family: courier, arial, times-new-roman;
+    line-height: 40px;
+    text-align: center
+    }
+a.href {
+    color: #00787C;
+    font-style: italic;
+   }
