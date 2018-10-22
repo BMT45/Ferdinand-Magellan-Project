@@ -1,0 +1,14 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = firstCircumnavigators
+
+firstCircumnavigators = element firstCircumnavigators { mixed{(header | perNames | name | num | ship | placeName)*} }
+header = element header {mixed {(ship | placeName)*}}
+perNames = element perNames {mixed{name*}}
+name = element name {text}
+num = element num {text}
+ship = element ship {text}
+placeName = element placeName {text}
+
+
+
