@@ -1,1 +1,24 @@
-#empty
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = pigaphetaJournal
+
+pigaphetaJournal = element pigaphetaJournal { heading, body }
+
+heading = element heading { mixed { author, rank*, royalty }}
+author = element author {text}
+rank = element rank {text}
+royalty = element royalty {text}
+
+body = element body { mixed { (p | chap | book | title)* }}
+chap = element chap {text}
+book = element book {text}
+title = element title {mixed{ placeName*}}
+
+p = element p { mixed {(placeName | persName | nationality | ethnicGroup | date | lat | long)* } }
+placeName = element placeName {text}
+persName = element persName {text}
+nationality = element nationality {text}
+ethnicGroup = element ethnicGroup {text}
+date = element date {text}
+lat = element lat {text}
+long = element long {text}
