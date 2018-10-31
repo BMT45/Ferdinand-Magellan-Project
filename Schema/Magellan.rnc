@@ -1,0 +1,29 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = magellan
+
+magellan = element pigaphetaJournal { mixed{(header | perNames | name | num | ship | placeName | body | heading)*} }
+
+heading = element heading { mixed { author, rank*, royalty }}
+author = element author {text}
+rank = element rank {text}
+royalty = element royalty {text}
+
+body = element body { mixed { (p | chap | book | title)* }}
+chap = element chap {text}
+book = element book {text}
+title = element title {mixed{ placeName*}}
+
+p = element p { mixed {(placeName | persName | nationality | ethnicGroup | date | lat | long)* } }
+placeName = element placeName {text}
+persName = element persName {mixed{name*}}
+nationality = element nationality {text}
+ethnicGroup = element ethnicGroup {text}
+date = element date {text}
+lat = element lat {text}
+long = element long {text}
+
+header = element header {mixed {(ship | placeName)*}}
+perNames = element perNames {mixed{name*}}
+num = element num {text}
+ship = element ship {text}
