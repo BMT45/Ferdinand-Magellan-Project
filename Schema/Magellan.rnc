@@ -2,7 +2,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = magellan
 
-magellan = element pigaphetaJournal { mixed{(header | perNames | name | num | ship | placeName | body | heading)*} }
+magellan = element magellan { mixed{(header | perNames | name | num | ship | placeName | body | heading)*} }
 
 heading = element heading { mixed { author, rank*, royalty }}
 author = element author {text}
