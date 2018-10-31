@@ -1,0 +1,53 @@
+body {
+    background-color: #4D709E;
+    line-height: 40px;
+    text-align: center
+    }
+div.main {
+    font-family: bookman-old-style, serif;
+    font-size: 250%;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    float: left;
+    background: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+div.main2 {
+    font-family: bookman-old-style, serif;
+    color: black;
+    font-size: 70%
+}
+img {
+    float: right;
+    max-width: 40%;
+    margin-right: 2%;
+    margin-top: 5%
+}
+ul
+{
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li
+{
+    display: inline;
+}
+li a
+{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
