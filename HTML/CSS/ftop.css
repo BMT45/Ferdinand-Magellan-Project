@@ -1,0 +1,20 @@
+ul
+{
+    margin: 2%;
+    overflow: hidden;
+    text-align: center
+}
+li
+{
+    display: inline;
+}
+li a
+{
+    background-color: #465871;
+    color: white;
+    padding: 15px 28px;
+    margin: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

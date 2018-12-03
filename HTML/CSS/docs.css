@@ -1,0 +1,50 @@
+html{
+   margin: 0px;
+    padding: 0px;
+    background-image:url("fwaves.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+h1 {
+    font-family: bookman-old-style, serif;
+    color: white;
+    padding-top: 5%;
+    font-size: 300%;
+    text-align: center
+}
+body{
+    font-family: georgia, serif;
+    color: white;
+    }
+div.main {
+    font-family: georgia, serif;
+    font-size: 100%;
+    text-align: center;
+    color: black;
+    line-height: 150%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 63%;
+    margin-left: 13%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    background: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    }
+span.persName {
+    font-style: italic;
+    color: gray
+}
+span.ref {
+    font-size: 30%
+}
+div.files {
+    text-align: left;
+}
+a {
+    color: #405A79
+}
