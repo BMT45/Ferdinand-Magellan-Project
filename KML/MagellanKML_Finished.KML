@@ -1,3 +1,5 @@
+<!-- Brad -->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
     <!-- By using the pair of latitudes and longitudes measurements, I made a simple kml document which marks the general path that was taken for the first circumnavigation of the world.  Due to only having 10 pairs of longitude and latitude measurements, for the coordinates for the Cape of Good Hope, Cape of Malacca, and the Cape of Eleven Thousand Virgins, I used the latitude measurement given in the text and then I used the modern longitude line because of the inability to measure longitude in certian cases.  I also used the modern coordinates for Seville to mark the beginning and the end of the journey  -->
