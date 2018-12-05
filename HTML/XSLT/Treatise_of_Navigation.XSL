@@ -1,3 +1,5 @@
+<!-- Brad -->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -25,9 +27,9 @@
         <p><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match='persName'>
-        <span class='persName'><xsl:apply-templates></xsl:apply-templates></span>
+        <span class='persName'><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match='ref'>
-        <sup><span class='ref'><xsl:apply-templates></xsl:apply-templates></span></sup>
+        <sup><span class='ref'><xsl:apply-templates/></span></sup>
     </xsl:template>
 </xsl:stylesheet>
