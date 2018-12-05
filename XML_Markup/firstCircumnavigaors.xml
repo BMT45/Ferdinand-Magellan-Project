@@ -1,9 +1,11 @@
+<!-- Justin / edits by Rachel -->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="firstCircumnavigators.rnc" type="application/relax-ng-compact-syntax"?>
-<firstCircumnavigators>
+<magellan type="firstCircumnavigators">
 <header>Herrera (Decade iii, lib. iv, cap. 4) mentions the arrival of <ship>the Victoria</ship>, and says that an accountant and thirteen Castilians had remained behind, arrested at <placeName>Cape Verde</placeName>, and that the King of Portugal's factor sent them on to Lisbon in a ship which came at that time from Calicut.
 Herrera then gives the names of those who came in <ship>the Victoria,</ship> and who went to Court. They were—— </header>
-<perNames>
+<list>
 <name>Miguel de Rodas, master.</name>
 <name>Martin de Insaurraga, pilot.</name>
 <name>Miguel de Rodas,seaman.</name>
@@ -33,11 +35,13 @@ Herrera then gives the names of those who came in <ship>the Victoria,</ship> and
 <name>Juan Martin.</name>
 <name>Martin de Magallanes.</name>
 <name>Francisco Alvaro (probably Albo, the pilot).</name>
-</perNames>
-Roldan de Argote (from whom must be named the mountain, which in the Strait of Magellan, is now called the Campaña de Roldan).
-<name>Juan Sebastian del Cano.</name>
-This number, <num>31,</num> will agree with Pigafetta's 13, who remained at Cape Verde, and 18 who landed from <ship>the Victoria.</ship>
+</list>
+  <persName>Roldan de Argote</persName> (from whom must be named the mountain, which in the </placeName>Strait of Magellan</placeName>, is now called the <placeName>Campaña de Roldan</placeName>).
+<persName>Juan Sebastian del Cano</persName>.
+This number, 31, will agree with <persName>Pigafetta</persName>'s 13, who remained at <placeName>Cape Verde</placeName>, and 18 who landed from the <name>Victoria</name>.
 
-Sebastian del Cano was very well received by the emperor, and Herrera mentions the safe arrival of some of the Molucca Indians: "One of whom," he says, "was so sharp, that the first thing he did was to inquire how many reals a ducat was worth, and a real how many maravedises, and how much pepper was given for a maravedi; and he went from shop to shop to get information of the value of spices, and with this he gave cause that he did not return to his country, although the others returned." 
-This probably means that he was not allowed to return, lest he should raise the price of spices in the <placeName>Molucca Islands.</placeName>
-</firstCircumnavigators>
+<persName>Sebastian del Cano</persName> was very well received by the <rank>emperor</rank>, and <persName>Herrera</persName> mentions the safe arrival of some of the <ethnicGroup>
+  Molucca Indians</ethnicGroup>: <q>"One of whom,"</q> he says, 
+<q>"was so sharp, that the first thing he did was to inquire how many reals a ducat was worth, and a real how many maravedises, and how much pepper was given for a maravedi; and he went from shop to shop to get information of the value of spices, and with this he gave cause that he did not return to his country, although the others returned."</q> 
+This probably means that he was not allowed to return, lest he should raise the price of spices in the <placeName>Molucca Islands</placeName>.
+</magellan>
