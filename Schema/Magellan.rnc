@@ -1,20 +1,21 @@
+<!-- Justin / revised by Rachel -->
+
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = magellan
 
-magellan = element magellan { mixed{(header | perNames | name | num | ship | placeName | body | heading | p | subHeading | references)*} }
+magellan = element magellan { mixed{( header | persNames | name | placeName | body | heading | p | subHeading | ref)*} }
 
 heading = element heading { mixed { author, rank*, royalty }}
 author = element author {text}
 rank = element rank {text}
-royalty = element royalty {text}
 
 body = element body { mixed { (p | chap | book | title)* }}
 chap = element chap {text}
 book = element book {text}
 title = element title {mixed{ placeName*}}
 
-p = element p { mixed {(placeName | persName | nationality | ethnicGroup | date | lat | long | map | q | ref | n)* } }
+p = element p { mixed {(placeName | persName | nationality | ethnicGroup | date | lat | long | geo | q | ref | n)* } }
 placeName = element placeName {text}
 persName = element persName {mixed{name*}}
 nationality = element nationality {text}
@@ -24,14 +25,12 @@ lat = element lat {text}
 long = element long {text}
 
 header = element header {mixed {(ship | placeName)*}}
-perNames = element perNames {mixed{name*}}
 num = element num {text}
 ship = element ship {text}
 
 n = attribute n { ("1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "11" | "12" | "13" | "14" | "15" | "16" | "17" | "18" | "i" | "ii" | "iii")*}
-ref = element ref { mixed{(rank | persName | name | placeName | n)* }
-references = element references { ref* } 
-q = element q { mixed{(map | ref | name | ref | placeName | lb | graphic | } }
+ref = element ref { mixed {(rank | persName | name | placeName | n)* }
+q = element q { mixed {( geo | persName | name | ref | placeName | lb | graphic ) } }
 map = element map { text }
-lb = element lb { mixed{n* | q*}}
+lb = element lb { mixed {n* | q*} }
 graphic = element graphic { text } 
