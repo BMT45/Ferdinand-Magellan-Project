@@ -1,4 +1,6 @@
-<magellan>
+<!-- Rachel -->
+
+<magellan type="treatise">
 <heading>
 TREATISE OF NAVIGATION
 
@@ -15,7 +17,7 @@ all those after him, who have written of the elements of the nautical art and of
     
 <p n="2"><q>"The earth is round,"</q> he says, <q>"and remains suspended and immovable in the midst of all the celestial bodies. The first index fixed on two poles, the arctic and antarctic, which are 
 supposed to correspond with the poles of the earth. It runs from East to West, and transports with itself all the planets and stars. Besides this there is the eighth sphere, the 
-poles of which are at <map>23 deg. 33 min.</map>,<ref n="1"/> it runs from West to East.</q></p>
+    poles of which are at <map>23 deg. 33 min.</map>,<ref n="1">1</ref> it runs from West to East.</q></p>
     
     <!-- Anything marked with <map> could possibly be used for mapping the travel logs later, or some are just "map lingo" in general. Could be useless, could be helpful, but they are easier to find now, can always delete easily later. (R) -->
     
@@ -158,10 +160,10 @@ at 45 deg. there is north-east, south-west, north-west, and south-east; at 22½ 
     <!-- I forget the code that you can use to reference previous markup which is what I wanted to use here, when I come across it I will fix it (R) -->
     
 <references>
-<ref n="1">Now the declination of the ecliptic, which answers to the poles of the eighth sphere of <persName>Pigafetta</persName>, is 23 deg. 28 min. 30 sec. Note, Milan edition.</ref>
-<ref n="2">Supposing that the surface of the globe under the equator were half land and half sea, and then giving to each league three and a half miles, we should have 22,050 miles for the 
+    <ref n="1">1</ref><p>Now the declination of the ecliptic, which answers to the poles of the eighth sphere of <persName>Pigafetta</persName>, is 23 deg. 28 min. 30 sec. Note, Milan edition.</p>
+    <ref n="2">2</ref><p>Supposing that the surface of the globe under the equator were half land and half sea, and then giving to each league three and a half miles, we should have 22,050 miles for the 
 circumference of the earth: a measure very little differing from that which results from giving to each degree at the equator sixty Italian miles, by which the circumference is 
-21,600 miles. Note, Milan edition.</ref>
+21,600 miles. Note, Milan edition.</p>
 <ref n="3">The guard stars are 6 and 7 of <name>Ursa Minor</name>, which form a triangle with the pole and pole star; now 7 at the belt of <name>Cassiopeia</name> is used. Note, Milan edition.</ref>
 <ref n="4">This means the arm of the instrument used; it might be the meteoroscope of Regiomontano, which had a cross in the middle: or an astrolabe like it; or the common astrolabe with a 
 dioptron, or mediclino, as <persName>Pigafetta</persName> calls it, placed on the equator. Note, Milan edition.</ref>
