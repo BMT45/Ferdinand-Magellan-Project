@@ -1,8 +1,10 @@
+<!-- Brad -->
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- The text is not seperated into chapters as normal.  The only seperators in the text that were present were book 3 and book 4.-->
 <!-- For the Coordinates I added for the KML map I made for this project, I would add the modern day coordinates I used as a either a decLat or decLon or both depending on if I added a latitude, longitude, or both measurements onto a placeName element. -->
-<pigaphetaJournal>
+<magellan type="pigaphetaJournal">
     
 <heading>    <author>Anthony Pigapheta</author>, <rank>Patrician of Vicenza</rank>, and <rank>Knight of Rhodes</rank>, 
     to the very illustrious and very excellent 
@@ -1774,4 +1776,4 @@ and that in an island called Ocoloro, below <placeName>Java Major</placeName>, t
  Returning through <placeName>Spain</placeName>, I came to <placeName>France</placeName>, where I presented a few things from the other hemisphere to Madam the Regent, mother of the most Christian<persName> King Don Francis</persName>.
  Afterwards, I turned towards <placeName>Italy</placeName>, where I established for ever my abode, and devoted my leisure and vigils to the very illustrious and noble lord, <persName>Philip de Villiers Lisleadam</persName>, the very worthy grand master of Rhodes.</p></bookContents>
 </body>
-</pigaphetaJournal>
+</magellan>
