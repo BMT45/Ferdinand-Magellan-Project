@@ -13,7 +13,6 @@
                 <link rel="stylesheet" type="text/css" href="Thomas_11_09.css"/>
             </head>
             <body>
-
                 <div id='main'>
                     <xsl:apply-templates select='//magellan'/>
                 </div>
