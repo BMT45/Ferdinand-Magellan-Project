@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <!-- By using the pair of latitudes and longitudes measurements, I made a simple kml document which marks the general path that was taken for the first circumnavigation of the world.  Due to only having 10 pairs of longitude and latitude measurements, for the coordinates for the Cape of Good Hope, Cape of Malacca, and the Cape of Eleven Thousand Virgins, I used the latitude measurement given in the text and then I used the modern longitude line because of the inability to measure longitude in certian cases.  I also used the modern coordinates for Seville to mark the beginning and the end of the journey  -->
+    
+   
+    <Document>
+        <name>Magellan's Voyage</name>
+        <description> KML plot of Magellan's Voyage around the world</description>
+      <Placemark>
+        <name>Seville</name>
+        <description>Now in order to decypher the commencement of my voyage (very illustrious lord); having heard that there was in the city of Seville, a small armade to the number of five ships</description>
+        <Point>
+            <coordinates>-5.9845, 37.3891, 0</coordinates>
+        </Point>
+    </Placemark>
+<Placemark>
+   <name> 52 S 68 W
+    </name>
+    <description>When we had gone out of this strait, if we had always navigated to the west we should have gone without finding any land except the Cape of the Eleven Thousand Virgins, which is the eastern head of the strait in the ocean sea, with the Cape of Desire at the west in the Pacific sea.
+        These two capes are exactly in fifty-two degrees of latitude of the antarctic pole.
+       </description>
+    <Point>
+        <coordinates>  -68, -52, 0</coordinates>
+    </Point>
+</Placemark>
+        <Placemark>
+            <name>12 N 146</name>
+            <description>After having navigated sixty leagues by the said course, in twelve degrees latitude, and a hundred and forty-six of longitude, on Wednesday, the 6th of March, we discovered a small island in the north-west direction,and two others lying to the south-west.</description>
+            <Point>
+                <coordinates>-146, 12,0</coordinates>
+            </Point>
+        </Placemark>        
+        <Placemark>
+            <name> 10 N 161 W</name>
+            <description>This region and archipelago is in ten degrees north latitude, and a hundred and sixty-one degrees longitude from the line of demarcation.
+            </description>
+            <Point>
+                <coordinates>-161, 10, 0</coordinates>
+            </Point>
+        </Placemark>        
+        
+        <Placemark>
+            <name> 10 N, 154 E Zubu</name>
+            <description>It is in ten degrees north latitude and 154 east longitude from the line of demarcation.</description>
+            <Point>
+                <coordinates>154, 10, 0 </coordinates>
+            </Point>
+        </Placemark>        
+        <Placemark>
+            <name>8 N, 167 Chipit</name>
+            <description>This part of the island called Chipit is the same land as Butuan and Calagan, it passes above Bohol, and borders on Massava.
+                Its port is good enough; it is in 8° N.latitude, and 167° of longitude from the line of demarcation; it is fifty leagues distance from Zubu.</description>
+            <Point>
+                <coordinates>167,8,0</coordinates>
+            </Point>
+        </Placemark>        
+        <Placemark>
+            <name> 5 15' N, 176 40'</name>
+            <description>This island is so large that to sail round it with a prahu would require three months.
+                It is in  5° 15' north latitude and 176° 40' of longitude from the line of demarcation.</description>
+            <Point>
+                <coordinates>-176, 5.25, 0</coordinates>
+            </Point>
+        </Placemark>        
+        <Placemark>
+            <name> 0 N 161 W</name>
+            <description>The island of Tadore is in 0 deg.27 min. North latitude, and 161 deg.west</description>
+            <Point>
+                <coordinates>-161, 0.45, 0</coordinates>
+            </Point>
+        </Placemark>        
+        <Placemark>
+            <name> 6 S 163 30'</name>
+            <description>Bandan is in 6 deg.of S.latitude, and 163 deg.30 min.longitude from the line of demarcation.</description>
+            <Point>
+                <coordinates> 163.5, -6,0</coordinates>
+            </Point>
+        </Placemark>        
+        <Placemark>
+            <name> 8S 169</name>
+            <description>The island of Mallua is in 8 deg. 30 min.S.latitude, and 169 deg.40 min.longitude from the line of demarcation.
+            </description>
+            <Point>
+                <coordinates> 169.666, -8.5,  0</coordinates>
+            </Point>
+        </Placemark>        
+        <Placemark>
+            <name>10 S 174</name>
+            <description>Its south latitude is in 10 deg., and the longitude 174 deg.30 min. from the line of demarcation.</description>
+            <Point>
+                <coordinates> 174.5,-10, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name> 1 30' S, 102</name>
+            <description>The Cape of Malacca is in 1 deg.30 min.of S.latitude.</description>
+            <Point>
+                <coordinates> 102,-1.5, 0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name> Cape Verde Islands</name>
+            <description>
+                Constrained by extreme necessity, we decided on touching at the Cape Verde Islands, and on Wednesday the 9th of July, we touched at one of those islands named St. James's.
+                Knowing that we were in an enemy's country, and amongst suspicious persons, on sending the boat ashore to get provision of victuals, we charged the seamen to say to the Portuguese that we had sprung our foremast under the equinoctial line (although this misfortune had happened at the Cape of Good Hope), and that our ship was alone, because whilst we tried to repair it, our captain-general had gone with the other two ships to Spain.
+                With these good words, and giving some of our merchandise in exchange, we obtained two boat-loads of rice. </description>
+            <Point>
+                <coordinates>-23.70345, 15.183</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>34 30' S, 18.4740 E</name>
+            <description>The Cape of Good Hope is in 34° 30' South latitude, 1600 leagues distant from the Cape of Malacca, and it is the largest and most dangerous cape in the world.
+            </description>
+            <Point>
+                <coordinates>18.4740, -34, 0</coordinates>
+            </Point>
+        </Placemark>
+
+        
+<Placemark>
+    <styleUrl>#yellow</styleUrl>
+    <LineString>
+        <coordinates>
+            -5.9845, 37.3891, 0
+            -68, -52, 0
+            -146, 12, 0
+            -161, 10, 0
+            154, 10, 0
+            167, 8, 0
+            -176, 5.25, 0
+            -161, 0.45, 0
+            163, -6, 0
+            169.666, -8.5,  0
+            174,-10, 0
+            102,-1.5, 0
+            18.4740, -34, 0
+            -23.70345, 15.183
+            -5.9845, 37.3891, 0
+        </coordinates>
+    </LineString>
+</Placemark>
+        
+        <!-- Ends in Seville where it started -->
+    </Document>
+</kml>
