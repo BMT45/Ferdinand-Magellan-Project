@@ -31,7 +31,7 @@
                     <text x="-50" y="{current() ! xs:integer(.) * $spacer}" text-anchor="middle" style="font-family: Arial;
                         font-size  : 20;
                         stroke     : black;
-                        fill       : red;
+                        fill       : blue;
                         "><xsl:value-of select="$earliest + position() -1"/></text>
                 </xsl:for-each>
             </g>
