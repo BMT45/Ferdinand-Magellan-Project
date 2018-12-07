@@ -1,7 +1,5 @@
-<!-- Brad -->
-
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!-- Brad -->
 <!-- The text is not seperated into chapters as normal.  The only seperators in the text that were present were book 3 and book 4.-->
 <!-- For the Coordinates I added for the KML map I made for this project, I would add the modern day coordinates I used as a either a decLat or decLon or both depending on if I added a latitude, longitude, or both measurements onto a placeName element. -->
 <magellan type="pigaphetaJournal">
