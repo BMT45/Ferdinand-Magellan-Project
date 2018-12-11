@@ -7,19 +7,19 @@ start = magellan
 magellan = element magellan { type, header, body }
 type = attribute type {text}
 
-header = element header { mixed { (author | rank | title)* }}
+header = element header { mixed { (author | placeName | persName | ethnicGroup | name | rank | title)* }}
 author = element author {text}
 rank = element rank {text}
 title = element title { mixed { (placeName | name | persName)* }}
 
-body = element body { mixed { (p | subHeading | li | chap | references|  book )* }}
-li = element li { persName }
+body = element body { mixed { (p | subHeading | chap | references|  book )* }}
+li = element li { p+ }
 chap = element chap {text}
 book = element book {text}
 name = element name {text}
 subHeading = element subHeading {text}
 
-p = element p { mixed {(name | placeName | persName | rank | term | ethnicGroup | date | geo | lb | q | ref | n )* } }
+p = element p { mixed {(name | li | placeName | persName | rank | term | ethnicGroup | date | geo | lb | q | ref | n )* } }
 references = element references { ( p | ref )* }
 geo = element geo { ( lon | lat | text )* }
 lon = attribute lon { xsd:integer }
