@@ -1,0 +1,322 @@
+<!-- Rachel -->
+<?xml-model href="magellan.rnc" type="application/relax-ng-compact-syntax"?>
+<magellan type="navigationTreatise">
+    <header>
+        <title>TREATISE OF NAVIGATION OF THE CHEVALIER <persName>ANTONY PIGAFETTA</persName></title>
+    </header>
+
+    <!-- used <term> for astronomy and mapping terms not necessarily used today (R) -->
+
+    <body><p n="1">The armillary sphere, of which the author gives a drawing, serves to explain the
+            system of the world according to <persName>Ptolemy</persName>, and could also serve as
+            an <term>astrolabe</term>, for one sees at the top of it a kind of handle or ring, by
+            which to hold it suspended, as is seen in the above-mentioned drawing. He begins his
+            treatise by giving us an idea of that system, as have done all those after him, who have
+            written of the elements of the nautical art and of pilotage.</p>
+        <p n="2"><q>"The earth is round,"</q> he says, <q>"and remains suspended and immovable in
+                the midst of all the celestial bodies. The first index fixed on two poles, the
+                arctic and antarctic, which are supposed to correspond with the poles of the earth.
+                It runs from <term>East</term> to <term>West</term>, and transports with itself all
+                the planets and stars. Besides this there is the eighth sphere, the poles of which
+                are at <geo lat="23">23 deg.</geo> 33 min.,<ref n="1">1</ref> it runs from
+                    <term>West</term> to <term>East</term>.</q></p>
+        <p n="3"><q>"It is supposed that all the circumference of the earth is divided into 360
+                degrees; and each degree is of <geo>17 leagues and a half</geo>, consequently the
+                circumference of the earth is <geo>6,300 leagues</geo>. Land leagues are of
+                    <geo>three miles and sea leagues of four miles</geo>.<ref n="2">2</ref> "The ten
+                circles of the armillary sphere, of which the six major pass through the center of
+                the earth, serve to determine the situation of countries and climates. The
+                    <term>Ecliptic</term> determines the movement of the sun and the planets: the
+                two <term>Tropics</term> indicate the point to which the sun declines from the
+                    <term>equator</term> towards the <term>North</term> in summer, and towards the
+                    <term>South</term> in winter. The <name>Meridian</name>, always variable,
+                because it passes through all points of the equator, cutting it perpendicularly,
+                designates the <term>longitude</term>, and it is on it that the
+                    <term>latitudes</term> are marked."</q></p>
+        <subHeading>Of Latitude.</subHeading>
+        <p n="4">After having well explained the armillary sphere with all its parts, and their use
+            according to the system of <persName>Ptolemy</persName>, the author goes on to teach the
+            method of taking the altitude of the pole, on which the <term>latitude</term> is
+            calculated; fixing the pole at 0° and the equator at 90°.</p>
+        <p n="5"><q>"The Polar star,"</q> he says, <q>"is not precisely on the point corresponding
+                to the axis of the earth; but it turns round it, as do all the other stars. In order
+                to know its true position with regard to the pole, it must be observed where the
+                    <term>Guard stars</term>
+                <ref n="3">3</ref> stand. If these are on the western arm, <ref n="4">4</ref> the
+                polar star stands one degree above the pole: if they are on the line <ref n="5"/>
+                the pole star stands<geo lat="3"> 3 deg.</geo> 30 min. <ref n="6">6</ref> below the
+                pole: if they are on the eastern arm the pole star is one degree below the pole.
+                When one wishes to take the altitude of the pole star, in whichever of the
+                above-mentioned four places the <name>Guard</name> stars may be, the degrees which
+                the pole star has above the pole will be subtracted from its altitude, or those
+                which it has below the pole will be added to it. I have spoken in the account of the
+                voyage of the stars of the <placeName>Antarctic Pole</placeName>.</q></p>
+        <p n="6"><q>"The latitude of the place may also be ascertained by the sun's altitude. <lb
+                    n="1">1. If you find yourself between the <term>equinoctial</term> and the <placeName>arctic pole</placeName> and
+                    the shadow falls towards that pole, look how many degrees and minutes <term>meridianal</term>
+                    declination the sun has that day; and this you will subtract from the altitude
+                    of the sun which you have taken: afterwards, deducting the remaining degrees
+                    from 90 deg., you will have in the residue the number of degrees of North
+                    latitude, that is your distance from the <term>equator</term>.</lb>
+                <lb n="2">2. If the sun has a <term>boreal</term> declination, in such a manner that the shadow
+                    falls towards the south, take the sun's declination on that day, and add it to
+                    the sun's altitude which you have taken, from that sum subtract 90 degs., and
+                    the remaining degrees will indicate your <term>boreal</term> latitude.</lb>
+                <lb n="3">3. If the sun is between the <term>equinoctial</term> and the <placeName>antarctic</placeName>, and the shadow
+                    falls towards the <placeName>antarctic</placeName>, observe the sun's declination for that day,
+                    subtract it from the altitude taken, according to the first rule, and you will
+                    have the degrees of south latitude.</lb>
+                <lb n="4">4. If, when you and the sun are between the <term>equinoctial</term> and the <placeName>antarctic
+                    pole</placeName>, the shadow falls towards the north, you will add the altitude you have
+                    taken to the sun's declination that day, and act according to the second rule. </lb>
+                <lb n="5">5. When you have an altitude of 90 deg., you will be so many degrees
+                    distant from the <term>equator</term> as there are degrees of the sun's declination, and if
+                    the sun has no declination you will be under the <term>equator</term>.</lb>
+                <lb n="6">6. If you are to the north of the <term>equator</term>, and the sun is in the southern
+                    signs you will look what is its declination, you will add these degrees of
+                    declination to those of the altitude observed, and as many degrees as are
+                    wanting from 90 deg., so many will you be distant from the <term>equinoctial</term>. </lb>
+                <lb n="7">7. You will do the same when you find yourself to the south of the
+                    <term>equinoctial</term>, whilst the sun is in the northern signs.</lb></q></p>
+        <subHeading>"Of Longitude.</subHeading>
+        <p n="7"><q>"Longitude indicates the degrees from east to west: I have considered many
+                methods or means for ascertaining it, and I have found three methods <ref n="7">7</ref>
+                fitting for that object. The last is the most convenient for those who do not know
+                astrology. At the present time the pilots content themselves with knowing the
+                latitude; and are so proud that they will not hear speak of longitude.</q></p>
+        <p n="8"><lb n="1"><q>"i. From the latitude of the moon the longitude is calculated of the
+                    place in which the observation is made. The distance of the moon from the
+                    <term>ecliptic</term> is called its latitude: the <term>ecliptic</term> is the path of the sun. The moon,
+                    in its movement, always increases its distance until it reaches the furthest
+                    point of its distance: and thence it returns back, to diminish, so to say, its
+                    latitude, until it is with the head or tail of the dragon <ref n="8">8</ref> there it
+                    cuts the <term>ecliptic</term>. And since the moon, whilst it lengthens its distance from the
+                    <term>ecliptic</term>, has more degrees towards the west than towards the east, it must
+                    necessarily have more latitude on one side (of the globe) than on the other: and
+                    when the latitude is known, by measuring the degrees and minutes with the
+                    <term>astrolabe</term>, it will be known whether it is found, and how far it is found towards
+                    the east or the west. But in order to ascertain the longitude, you must know in
+                    what latitude the moon ought to be at that same moment in the place from which
+                    you sailed, for instance, in <placeName>Seville</placeName>. By knowing the
+                    latitude and longitude of the moon at <placeName>Seville</placeName> in degrees
+                    and minutes, and seeing also the latitude and longitude which it has in the
+                    place where you are, you will know how many hours and minutes you are distant
+                    from <placeName>Seville</placeName>; and afterwards you will calculate the
+                    distance in east or west longitude.</q></lb>
+            <lb n="2"><q>"ii. The moon furnishes another method for ascertaining the longitude, but
+                    that is when I knew the precise hour in which the moon observed at
+                        <placeName>Seville</placeName> ought to be in conjunction with a given star
+                    or planet, or ought to be in a certain opposition to the sun, of which the
+                    degrees are determined: and this I can know by means of an almanack. And since
+                    that happens in the east before it happens in the west, as many as may be the
+                    hours and minutes that may elapse from the time when the conjunction took place
+                    at <placeName>Seville</placeName>, till the time in which I observe it to take
+                    place, so much will be my longitude west of <placeName>Seville</placeName>. But
+                    if I should see the conjunction take place before the hour in which it ought to
+                    happen with respect to <placeName>Seville</placeName>, then my distance in longitude will be east. For
+                    each hour, <geo lon="15">fifteen degrees</geo> of longitude are calculated.</q>
+                <q>"To understand this does not require any great genius. It should be borne in mind
+                    that the moon has a motion opposed to the general motion of the heavens; that
+                    is, it goes from west to east, and in every two hours it progresses a degree and
+                    a few minutes; and since it is in the first heaven, and the stars are in the
+                    eighth, it certainly never enters in conjunction with them; but sometimes it
+                    interposes itself before the rays which come from them to our eye: but this does
+                    not happen at the same time to those who are at <placeName>Seville</placeName>, and to those who are at
+                    <placeName>Valencia</placeName>. The annexed figure will give an idea of this, from which it is seen
+                    that the ray of the star d is intercepted by the moon c for those who are at a
+                    and not for those who are at b for whom it was intercepted when the moon was at
+                    e.</q></lb>
+            <lb n="3"><q>"iii. The compass can also supply a method, still easier, for finding the
+                    longitude of the place in which you are. It is known that the compass, or the
+                    magnetised needle which is in it, directs itself to a given point, because of
+                    the tendency which the loadstone has towards the pole. The reason of this
+                    tendency is because the loadstone does not find in the heavens any other spot in
+                    repose except the pole, and on that account directs itself towards it. This is
+                    an explanation of the phenomenon which I propose; and I believe it to be true,
+                    so long as experience does not inform us of some better explanation.</q>
+                <q>"In order to know, by means of the needle, the degrees of longitude, form a large
+                    circle, in which place the compass, and divide it into 360 deg.: and having
+                    placed the needle at 360 deg., where it indicates the <placeName>arctic pole</placeName>; when the
+                    needle is in repose, draw a thread, which should pass from the <placeName>arctic pole</placeName>,
+                    pointed out by the needle to the <placeName>antarctic pole</placeName>, and let this thread be longer
+                    than the diameter. After that take the south, which you will know by the
+                    greatest altitude of the sun. Turn the compass, until the thread which traverses
+                    it coincides with the direction of the <term>meridian shade</term>; then, from the <placeName>antarctic
+                    pole</placeName> of the needle, with the thread which remained over, draw another thread to
+                    the arctic pole, that is, to the flower; <ref n="9">9</ref> and you will thus find how
+                    many degrees the needle of the compass is distant from the <term>meridian line</term>, that
+                    is, from the true pole. So many will be the degrees of longitude, which you will
+                    have from the place where the compass begins to set itself in motion. <ref
+                        n="10">10</ref> Therefore, with the more accuracy you take the true <term>meridian</term> so
+                    much the more exactly will you be able to ascertain the degrees of longitude.
+                    And from this it may be seen that the <term>meridian</term> should never be taken with the
+                    compass, because it north-easts or north-wests, <ref n="11">11</ref> as soon as it goes
+                    out of the true <term>meridian</term>; but take an observation of the south <ref n="12">12</ref>
+                    with the <term>astrolabe</term>, and judge that it is midday when the sun is at its greatest
+                    height.</q>
+                <q>"If it is not possible to take the sun's altitude at midday, that can be
+                    determined with an hour-glass of sand, taking the hours of the night from sunset
+                    till the moment of its rising. Having learned the hours of the night, you will
+                    know how many are wanting of the twenty-four, and these you will divide into two
+                    equal parts. When half of this has elapsed, be sure that it is midday, and that
+                    the shadow indicates to you the true <term>meridian</term>. But since the sand clock may
+                    often be inexact, it will be better to take the sun's altitude with the
+                    <term>astrolabe</term> by means of its <term>mediclino</term>. <ref n="13">13</ref></q>
+                <q>"The true <term>meridian</term> may also be ascertained, or rather the <term>equinoctial line</term>, which
+                    cuts the <term>meridian</term> at right angles, by observing the points where the sun rises
+                    and sets, and by observing how much they are distant from the <term>equinoctial</term> either
+                    to the north or to the south. For this purpose an <term>astrolabe</term> is formed with the
+                    globe; that is, a circle is made representing the earth's circumference, divided
+                    into 360 deg. At sunrise fix two pins in the circumference, in such a manner
+                    that a line drawn from one to the other should pass through the centre, and
+                    place the pins so that both should be in a line opposite the sun's center. Place
+                    two other pins in the same way in the circumference when the sun sets. You will
+                    thus see how much the sun declines from the <term>equinoctial line</term>, either to the
+                    north or to the south. And as many degrees as the pins are distant from the
+                    <term>equinoctial</term>, so many degrees the the sun's declination. Having found the sun's
+                    rising and setting, you will also find the medium distance; that is, the
+                    <term>meridian line</term>, and afterwards you will see how much the compass or magnetic
+                    needle north-easts or north-wests. You will infer from this how far you are from
+                    the <placeName>Fortunate islands</placeName>; that is, from <placeName>Tenerife</placeName> towards the east or the west. This
+                    method has been tried by experience.<ref n="14">14</ref></q></lb></p>
+        <subHeading>"Direction of the Ship.</subHeading>
+        <p n="9"><q>"If you wish to navigate to any place, you must first know its position; that
+                is, its latitude and longitude. Then, by means of the compass you will point
+                directly to that place. And since the compass varies to east and west, you must, by
+                the methods above described, ascertain its variation, and subtract or add that which
+                is necessary, so that the ship's head, regulated by the compass, may have the
+                required direction.</q></p>
+        <p n="10"><q>"Should the compass be lost, or if its variation east or west is not known, you
+                may regulate yourself by the sun at midday. When you have fixed the meridian in such
+                a manner that it cuts the ship in its width, it will be easy to direct the prow
+                wherever you wish. Here is an example: suppose you wish to go from north-east to
+                south-west, place the chart in such manner that the ship should have her head to
+                west and the poop to the east; then on the circle of the winds, divided into 360, or
+                in four times 90, fix two pins, one at 45 degrees between east and north, the other
+                at 45 degrees between west and south; bring the two pins on the line of the <term>meridian</term>
+                by turning the ship's head for that purpose, and the prow will be directed to the
+                place to which you are going. If the pins do not come in a line with the <term>meridian</term>,
+                it is a sign that you are navigating in a false direction, and you must rectify the
+                course. When you reach land, you will see that what I have said is true.</q></p>
+        <p n="11">"With an <term>astrolabe</term> made with plates, <ref n="15">15</ref> observations may be taken of
+            the <term>meridian line</term>, the poles, and the <term>equinoctial line</term>, at any hour of the day or night,
+            looking at the moon or any star; and for these, place in the middle of the <term>astrolabe</term>
+            instead of the <term>verghezita</term> or sight, <ref n="16">16</ref> two straight bars between which you
+            will observe the star."</p>
+        <p n="12">Thus the method being known by which the required direction is given to the ship,
+            the author teaches the method for determining the point or degree on the chart of the
+            winds, <ref n="17">17</ref> to which the ship on leaving a place to go to a given country
+            should be directed. For clearness, he gives some examples of this. <q>"Do you wish,"</q>
+            he says, <q>"to go from south to north, or vice versâ, on the same longitude? always
+                proceed on the same <term>meridian</term>. Do you wish to go from east to west, or vice versâ, in
+                the same latitude? always proceed on the same parallel. Do you wish to go from one
+                place to another as many degrees distant in longitude as it is different in
+                latitude? Then take the course of 45 degrees either to the south-west or south-east,
+                or north-west or north-east. If the latitude is greater than the longitude, then add
+                to the 45 degrees as many degrees towards the nearest pole, as the number of degrees
+                by which the latitude exceeds the longitude. For instance, if I wish to go from
+                    <placeName>Cape St. Vincent</placeName> to <placeName>Cape Bojador</placeName>,
+                I reckon the degrees of longitude and those of latitude to know the difference
+                between these two capes. I find that the degrees of <geo lon="5" lat="11">longitude are five and a half,
+                and those of latitude are eleven</geo>, from which I subtract the degrees of longitude and
+                there remain <geo lat="5">5 deg</geo>. 30 min. Then, instead of going in the direction of from
+                north-east to south-west (as I should do if the longitude were equal to the
+                latitude], I go from <geo lat="5">5 deg</geo>. 30 min. above north-east towards north, to <geo lon="5">5 deg</geo>. 30
+                min. below south-west towards south. If the longitude is greater than the latitude,
+                the lesser number is still subtracted from the greater: and the direction will be 45
+                <!-- difference values used for explanation in mapping will not be included in geo since they have no relevance to our map -->
+                deg. after deducting the residue. For instance, do you want to go from the island of
+                    <placeName>Ferro</placeName> to <placeName>Guadeloupe;</placeName> you know that
+                the first is in <geo lat="27">27 deg</geo>. latitude and the second in <geo lon="15">15 deg</geo>.; then take their
+                difference, which is 12 deg.: look at the map for their longitude, and you see that
+                    <placeName>Ferro</placeName> is in 1 deg. and <placeName>Guadeloupe</placeName>
+                in 45 deg., whence their difference is 44 deg.: subtract from these the 12 deg.
+                residue of latitude, and there remain 32 deg. Then you must subtract these 32 deg.
+                from 45 deg., and there will remain 13 deg. Therefore your course will be from
+                north-east 13 deg. north to south-west 13 deg. south.</q></p>
+        <subHeading>"Direction of the Winds.</subHeading>
+        <p n="13"><q>"The rose of the winds, divided into 360 deg., will give a clearer idea of what
+                has been here said; it being well understood that the pilot must place the center of
+                the winds on the point from which he starts, or from which he takes the course, and
+                he must fix the pole to the true pole observed from the sun, and not trusting to the
+                compass, which north-easts or north-wests.</q></p>
+        <p n="14"><q>"Then, to ascertain whence comes the wind, place a little stick with a little
+                sail[18] in the centre of your rose or circle of winds, divided into 360 deg., and
+                placed in such a manner that north and south stand on the true <term>Solar
+                    meridian</term>. The direction of the vane moved by the wind will indicate
+                exactly which wind blows: on the equinoctial is east and west; at 45 deg. there is
+                north-east, south-west, north-west, and south-east; at 22½ deg. towards north you
+                have north-north-east, and so on with the others."</q></p>
+        <references>
+            <p><ref n="1">1</ref>Now the declination of the <term>ecliptic</term>, which answers to the poles of the
+                    eighth sphere of <persName>Pigafetta</persName>, is <geo lat="23">23 deg</geo>. 28 min. 30 sec.
+                    Note, Milan edition.</p>
+            <p><ref n="2">2</ref>Supposing that the surface of the globe under the equator were half land
+                    and half sea, and then giving to each league three and a half miles, we should
+                    have 22,050 miles for the circumference of the earth: a measure very little
+                    differing from that which results from giving to each degree at the equator
+                    sixty Italian miles, by which the circumference is 21,600 miles. Note, Milan
+                    edition.</p>
+            <p><ref n="3">3</ref>The guard stars are 6 and 7 of <name>Ursa Minor</name>, which form a
+                    triangle with the pole and pole star; now 7 at the belt of
+                        <name>Cassiopeia</name> is used. Note, Milan edition.
+            </p>
+            <p><ref n="4">4</ref>This means the arm of the instrument used; it might be the meteoroscope of
+                    <name>Regiomontano</name>, which had a cross in the middle: or an <term>astrolabe</term> like it; or the
+                    common astrolabe with a <term>dioptron</term>, or <term>mediclino</term>, as
+                        <persName>Pigafetta</persName> calls it, placed on the equator. Note, Milan
+                    edition.</p>
+            <p><ref n="5">5</ref>That is the<term> meridian line</term> from the pole to the equator. Note, Milan
+                    edition.</p>
+            <p><ref n="6">6</ref>Though the radius of the circle which the pole star goes round is now
+                    little more than a degree and a half, in the time of
+                        <persName>Pigafetta</persName> it was <geo lat="3">3 deg</geo>. 17 min. 37 sec, so that if he
+                    reckoned it at <geo lat="3">3 deg</geo>. 30 min. it is wonderful that he should have made so small
+                    an error, notwithstanding the imperfection of his instruments. Note, Milan
+                    edition.</p>
+            <p><ref n="7">7</ref>These three methods are probably those which, according to
+                        <persName>Castañeda</persName>, <persName>Faleiro</persName> taught to
+                        <persName>Magellan</persName>. Note, Milan edition.</p>
+            <p><ref n="8">8</ref>That is to say, the knot where the orbit of the moon cuts the <term>ecliptic</term>.
+                    Note, Milan edition.</p>
+            <p><ref n="9">9</ref>The <term>fleur-de-lys</term> placed at the north.</p>
+            <p><ref n="10">10</ref>That is, where it coincides with the<term> meridian</term> and begins to deviate or
+                    vary. Note, Milan edition.</p>
+            <p><ref n="11">11</ref>That is, varies east or west.</p>
+            <p><ref n="12">12</ref>Or of midday.</p>
+            <p><ref n="13">13</ref>I do not find any mention of the <term>mediclino</term> in any writer of the times
+                    near that of <persName>Pigafetta</persName> who have treated of the <term>astrolabe</term>,
+                    such as <persName>Regiomontanus</persName>, <persName>Appianus</persName>,
+                        <persName>Gimma</persName>, <persName>Frisius</persName>,
+                        <persName>Danti</persName>, <persName>Clavius</persName>, etc.; but from
+                    what our author says here and elsewhere, it appears that the <term>mediclino</term> is that
+                    movable rule, fixed on the centre of the <term>astrolabe</term>, which turns round it, and is
+                    named sometimes <term>albidade</term>, or <term>dioptron</term>, or
+                        <term>traguado</term>, or <term>linea di fiducia</term>. Note, Milan
+                    edition.</p>
+            <p><ref n="14">14</ref><persName>Amoretti</persName>, in his introduction to this Treatise of
+                    Navigation, in the Milan edition, observes that <persName>Pigafetta</persName>
+                    was misled by a false theory when he supposes that there is in the heavens a
+                    point in repose to which the magnetic needle tends, but that the exact direction
+                    of the magnetic needle coincided, or at least approximated to the <term>meridian</term> of
+                    the <placeName>isle of Ferro</placeName>, which is not now the case; and that in
+                    some other places the variation of the compass had been observed to correspond
+                    with that of the longitude. By the table of variations of the compass published
+                    by <persName>Lambert</persName> in the <placeName>Ephemerides of
+                        Berlin</placeName>
+                    <name>(Astronomische Jahrbuch)</name> for the year <date when="1779"
+                    >1779</date>, it is seen by an easy calculation that at the beginning of the
+                    sixteenth century the magnetic equator or zero of deviation was very near the
+                    <placeName>isle of Tenerife</placeName>. Now it is further off, and the distance increases. M. de
+                    Bouganville found there the deviation to the west to be <geo lat="14">14 deg</geo>. 41 min.; and
+                        <persName>Staunton</persName>, the companion of
+                        <rank>Lord</rank><persName>Macartney</persName>, found it to be <geo lat="17">17 deg</geo>. 35
+                    min.</p>
+            <p><ref n="15">15</ref>We have two <term>astrolabes</term> in our museum constructed with several plates: one
+                    is of brass, and another of card, for more easy manipulation. Note, Milan
+                    edition.</p>
+            <p><ref n="16">16</ref><term>"Traguardo,"</term> level or traverser.</p>
+            <p><ref n="17">17</ref>"Rosa dei venti."</p>
+            <p><ref n="18">18</ref>Or flag, as appears from the drawing.</p>
+        </references></body>
+</magellan>
