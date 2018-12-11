@@ -12,7 +12,8 @@ author = element author {text}
 rank = element rank {text}
 title = element title { mixed { (placeName | name | persName)* }}
 
-body = element body { mixed { (p | subHeading | chap | references|  book )* }}
+body = element body { mixed { (p | subHeading | li | chap | references|  book )* }}
+li = element li { persName }
 chap = element chap {text}
 book = element book {text}
 name = element name {text}
