@@ -1,0 +1,38 @@
+# Justin / revised by Rachel
+
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = magellan
+
+magellan = element magellan { type, header, body }
+type = attribute type {text}
+
+header = element header { mixed { (author | rank | title)* }}
+author = element author {text}
+rank = element rank {text}
+title = element title { mixed { (placeName | name | persName)* }}
+
+body = element body { mixed { (p | subHeading | chap | references|  book )* }}
+chap = element chap {text}
+book = element book {text}
+name = element name {text}
+subHeading = element subHeading {text}
+
+p = element p { mixed {(name | placeName | persName | rank | term | ethnicGroup | date | geo | lb | q | ref | n )* } }
+references = element references { ( p | ref )* }
+geo = element geo { ( lon | lat | text )* }
+lon = attribute lon { xsd:integer }
+lat = attribute lat { xsd:integer }
+placeName = element placeName {text}
+persName = element persName { mixed {name*} }
+nationality = element nationality {text}
+ethnicGroup = element ethnicGroup {text}
+date = element date { mixed { when } }
+when = attribute when { text }
+term = element term {text}
+
+n = attribute n { xsd:integer }
+ref = element ref { n, text }
+q = element q { mixed {( geo | term | persName | name | ref | placeName | lb )* } }
+map = element map { text }
+lb = element lb { mixed {( n | term | placeName | q )*} }
