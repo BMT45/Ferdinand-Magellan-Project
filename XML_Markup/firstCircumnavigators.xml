@@ -1,47 +1,55 @@
 <!-- Justin / edits by Rachel -->
-
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="firstCircumnavigators.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="magellan.rnc" type="application/relax-ng-compact-syntax"?>
 <magellan type="firstCircumnavigators">
-<header>Herrera (Decade iii, lib. iv, cap. 4) mentions the arrival of <ship>the Victoria</ship>, and says that an accountant and thirteen Castilians had remained behind, arrested at <placeName>Cape Verde</placeName>, and that the King of Portugal's factor sent them on to Lisbon in a ship which came at that time from Calicut.
-Herrera then gives the names of those who came in <ship>the Victoria,</ship> and who went to Court. They were—— </header>
-<list>
-<name>Miguel de Rodas, master.</name>
-<name>Martin de Insaurraga, pilot.</name>
-<name>Miguel de Rodas,seaman.</name>
-<name>Nicolas Griego.</name>
-<name>Juan Rodriguez.</name>
-<name>Vasco Gallego (Portuguese).</name>
-<name>Martin de Judicibus.</name>
-<name>Juan de Santander.</name>
-<name>Hernando de Bustamante.</name>
-<name>Antonio Lombardo (Pigafetta).</name>
-<name>Francisco Rodrigues.</name>
-<name>Antonio Fernandes.</name>
-<name>Diego Gallego.</name>
-<name>Juan de Arratia.</name>
-<name>Juan de Apega.</name>
-<name>Juan de Acurio.</name>
-<name>Juan de Zubieta.</name>
-<name>Lorenzo de Iruña.</name>
-<name>Juan de Ortega.</name>
-<name>Pedro de Indarchi.</name>
-<name>Roger Carpinteta.</name>
-<name>Pedro Gasco.</name>
-<name>Alfonso Domingo, seaman.</name>
-<name>Diego Garcia.</name>
-<name>Pedro de Valpuesta.</name>
-<name>Ximeno de Bargos.</name>
-<name>Juan Martin.</name>
-<name>Martin de Magallanes.</name>
-<name>Francisco Alvaro (probably Albo, the pilot).</name>
-</list>
-  <persName>Roldan de Argote</persName> (from whom must be named the mountain, which in the </placeName>Strait of Magellan</placeName>, is now called the <placeName>Campaña de Roldan</placeName>).
-<persName>Juan Sebastian del Cano</persName>.
-This number, 31, will agree with <persName>Pigafetta</persName>'s 13, who remained at <placeName>Cape Verde</placeName>, and 18 who landed from the <name>Victoria</name>.
-
-<persName>Sebastian del Cano</persName> was very well received by the <rank>emperor</rank>, and <persName>Herrera</persName> mentions the safe arrival of some of the <ethnicGroup>
-  Molucca Indians</ethnicGroup>: <q>"One of whom,"</q> he says, 
-<q>"was so sharp, that the first thing he did was to inquire how many reals a ducat was worth, and a real how many maravedises, and how much pepper was given for a maravedi; and he went from shop to shop to get information of the value of spices, and with this he gave cause that he did not return to his country, although the others returned."</q> 
-This probably means that he was not allowed to return, lest he should raise the price of spices in the <placeName>Molucca Islands</placeName>.
+    <header><persName>Herrera</persName> (Decade iii, lib. iv, cap. 4) mentions the arrival of <name>the Victoria</name>,
+        and says that an accountant and thirteen <ethnicGroup>Castilians</ethnicGroup> had remained behind, arrested at
+            <placeName>Cape Verde</placeName>, and that the <rank>King</rank> of <placeName>Portugal</placeName>'s factor sent them on
+        to <placeName>Lisbon</placeName> in a ship which came at that time from <placeName>Calicut</placeName>. <persName>Herrera</persName> then gives the names of
+        those who came in <name>the Victoria,</name> and who went to Court. They were—— </header>
+    <body><p><li>
+                <p><persName>Miguel de Rodas</persName>, <rank>master</rank>.</p>
+                <p><persName>Martin de Insaurraga</persName>, <rank>pilot</rank>.</p>
+                <p><persName>Miguel de Rodas</persName>,seaman.</p>
+                <p><persName>Nicolas Griego.</persName></p>
+                <p><persName>Juan Rodriguez.</persName></p>
+                <p><persName>Vasco Gallego (Portuguese).</persName></p>
+                <p><persName>Martin de Judicibus.</persName></p>
+                <p><persName>Juan de Santander.</persName></p>
+                <p><persName>Hernando de Bustamante.</persName></p>
+                <p><persName>Antonio Lombardo (Pigafetta).</persName></p>
+                <p><persName>Francisco Rodrigues.</persName></p>
+                <p><persName>Antonio Fernandes.</persName></p>
+                <p><persName>Diego Gallego.</persName></p>
+                <p><persName>Juan de Arratia.</persName></p>
+                <p><persName>Juan de Apega.</persName></p>
+                <p><persName>Juan de Acurio.</persName></p>
+                <p><persName>Juan de Zubieta.</persName></p>
+                <p><persName>Lorenzo de Iruña.</persName></p>
+                <p><persName>Juan de Ortega.</persName></p>
+                <p><persName>Pedro de Indarchi.</persName></p>
+                <p><persName>Roger Carpinteta.</persName></p>
+                <p><persName>Pedro Gasco.</persName></p>
+                <p><persName>Alfonso Domingo</persName>, seaman.</p>
+                <p><persName>Diego Garcia.</persName></p>
+                <p><persName>Pedro de Valpuesta.</persName></p>
+                <p><persName>Ximeno de Bargos.</persName></p>
+                <p><persName>Juan Martin.</persName></p>
+                <p><persName>Martin de Magallanes.</persName></p>
+                <p><persName>Francisco Alvaro (probably Albo, the pilot).</persName></p>
+            </li></p>
+        <p><persName>Roldan de Argote</persName> (from whom must be named the mountain, which in the
+                <placeName>Strait of Magellan</placeName>, is now called the <placeName>Campaña de
+                Roldan</placeName>). <persName>Juan Sebastian del Cano</persName>. This number, 31,
+            will agree with <persName>Pigafetta</persName>'s 13, who remained at <placeName>Cape
+                Verde</placeName>, and 18 who landed from the <persName>Victoria</persName>.
+                <persName>Sebastian del Cano</persName> was very well received by the
+                <rank>emperor</rank>, and <persName>Herrera</persName> mentions the safe arrival of
+            some of the <ethnicGroup> Molucca Indians</ethnicGroup>: <q>"One of whom,"</q> he says,
+                <q>"was so sharp, that the first thing he did was to inquire how many reals a ducat
+                was worth, and a real how many maravedises, and how much pepper was given for a
+                maravedi; and he went from shop to shop to get information of the value of spices,
+                and with this he gave cause that he did not return to his country, although the
+                others returned."</q> This probably means that he was not allowed to return, lest he
+            should raise the price of spices in the <placeName>Molucca Islands</placeName>.</p>
+    </body>
 </magellan>
