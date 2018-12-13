@@ -13,50 +13,44 @@ function toggle() {
         case "perstoggle": {
             var pers = document.getElementsByClassName("persName");
             for (var i = 0; i < pers.length; i++) {
-                pers[i].style.backgroundColor = "#E0C5FE"
+                pers[i].classList.toggle("on")
             }
         };
         break;
         case "placetoggle": {
             var place = document.getElementsByClassName("placeName");
             for (var i = 0; i < place.length; i++) {
-                place[i].style.backgroundColor = "#C5E9FE"
+                place[i].classList.toggle("on")
             }
         };
         break;
         case "datetoggle": {
             var date = document.getElementsByClassName("date");
             for (var i = 0; i < date.length; i++) {
-                date[i].style.backgroundColor = "#AAFEB3"
+                date[i].classList.toggle("on")
             }
     };
      break;
         case "egtoggle": {
             var eg = document.getElementsByClassName("ethnicGroup");
             for (var i = 0; i < eg.length; i++) {
-                eg[i].style.backgroundColor = "#FEE2AA"
+                eg[i].classList.toggle("on")
             }
     };
      break;
         case "ranktoggle": {
             var rank = document.getElementsByClassName("rank");
             for (var i = 0; i < rank.length; i++) {
-                rank[i].style.backgroundColor = "#A1B6EF"
+                rank[i].classList.toggle("on")
             }
     };
      break;
         case "termtoggle": {
             var term = document.getElementsByClassName("term");
             for (var i = 0; i < term.length; i++) {
-                term[i].style.backgroundColor = "#CDCCCC"
+                term[i].classList.toggle("on")
             }
-        };
-         break;
-        case "nametoggle": {
-            var name = document.getElementsByClassName("name");
-            for (var i = 0; i < name.length; i++) {
-               name[i].style.backgroundColor = "#A1B6EF"
-            }
+    
     };
     }
     }
