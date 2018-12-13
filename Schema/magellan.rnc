@@ -15,13 +15,15 @@ title = element title { mixed { (placeName | name | persName)* }}
 body = element body { mixed { (p | subHeading | chap | references|  book )* }}
 li = element li { p+ }
 chap = element chap {text}
-book = element book {text}
+book = element book { mixed { (p | placeName)* }}
 name = element name {text}
 subHeading = element subHeading {text}
 
 p = element p { mixed {(name | li | placeName | persName | rank | term | ethnicGroup | date | geo | lb | q | ref | n )* } }
 references = element references { ( p | ref )* }
-geo = element geo { ( lon | lat | text )* }
+geo = element geo { ( lon | min | direction | lat | text )* }
+min = attribute min { xsd:integer }
+direction = attribute direction { text }
 lon = attribute lon { xsd:integer }
 lat = attribute lat { xsd:integer }
 placeName = element placeName {text}
