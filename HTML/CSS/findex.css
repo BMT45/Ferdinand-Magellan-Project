@@ -16,7 +16,8 @@ body {
     font-size: 80%
 }
 h1 {
-    font-family: 'Tangerine', serif;
+    font-family: georgia, serif;
+    font-variant: small-caps;
     color: white;
     padding-top: 5%;
     font-size: 300%;
