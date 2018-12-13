@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- Brad -->
+
 <!-- The text is not seperated into chapters as normal.  The only seperators in the text that were present were book 3 and book 4.-->
 <!-- For the Coordinates I added for the KML map I made for this project, I would add the modern day coordinates I used as a either a decLat or decLon or both depending on if I added a latitude, longitude, or both measurements onto a placeName element. -->
-<magellan type="pigaphetaJournal">
+<?xml-model href="magellan.rnc" type="application/relax-ng-compact-syntax"?>
+<magellan type='pigaphetaJournal'>
     
-<heading>    <author>Anthony Pigapheta</author>, <rank>Patrician of Vicenza</rank>, and <rank>Knight of Rhodes</rank>, 
+<header>    <author>Anthony Pigapheta</author>, <rank>Patrician of Vicenza</rank>, and <rank>Knight of Rhodes</rank>, 
     to the very illustrious and very excellent 
     Lord Philip de Villiers Lisleaden, the famous 
-    <royalty>Grand Master of Rhodes</royalty>, his most 
-    respected Lord</heading>
+    <rank>Grand Master of Rhodes</rank>, his most 
+    respected Lord</header>
     
 <body>
 <p n="1">Since there are several curious persons (very illustrious and very reverend lord) who not only are pleased to listen to and learn the great and wonderful things which God has permitted me to see and suffer in the long and perilous navigation, which I have performed (and which is written hereafter), but also they desire to learn the methods and fashions of the road which I have taken in order to go thither, [and who do] not grant firm belief to the end unless they are first well advised and assured of the commencement.
@@ -17,13 +18,13 @@
  By which means I could satisfy the desire of the said lords, and mine own also.
  So that it might be said that I had performed the said voyage, and seen well with my eyes the things hereafter written.</p>
 
-<p n="2">Now in order to decypher the commencement of my voyage (very illustrious lord); having heard that there was in the city of <placeName><placeName decLat='37.3891' decLon='-5.9845'>Seville</placeName></placeName>, a small armade to the number of five ships, ready to perform this long voyage, that is to say, to find the islands of <placeName>Maluco</placeName>, from whence the spices come: of which armade the captain-general was <persName>Fernand de Magaglianes</persName>, a <nationality>Portuguese</nationality> gentleman, commander of St. James of the Sword, who had performed several voyages in the ocean sea (in which he had behaved very honourably as a good man), I set out with many others in my favour from Barcelona, where at the time the Emperor was, and came by sea as far as Malaga, and thence I went away by land until I arrived at the said city of <placeName><placeName decLat='37.3891' decLon='-5.9845'>Seville</placeName></placeName>.
+<p n="2">Now in order to decypher the commencement of my voyage (very illustrious lord); having heard that there was in the city of <placeName>Seville</placeName>, a small armade to the number of five ships, ready to perform this long voyage, that is to say, to find the islands of <placeName>Maluco</placeName>, from whence the spices come: of which armade the captain-general was <persName>Fernand de Magaglianes</persName>, a <ethnicGroup>Portuguese</ethnicGroup> gentleman, commander of St. James of the Sword, who had performed several voyages in the ocean sea (in which he had behaved very honourably as a good man), I set out with many others in my favour from Barcelona, where at the time the Emperor was, and came by sea as far as Malaga, and thence I went away by land until I arrived at the said city of <placeName>Seville</placeName>.
  There I remained for the space of three months, waiting till the said armade was in order and readiness to perform its voyage.
  And because (very illustrious lord) that on the return from the said voyage, on going to Rome towards the holiness of our Holy Father, I found your lordship at <placeName>Monterosa</placeName>, where of your favour you gave me a good reception, and afterwards gave me to understand that you desired to have in writing the things which God of His grace had permitted me to see in my said voyage; therefore to satisfy and accede to your desire, I have reduced into this small book the principal things, in the best manner that I have been able.</p>
 
 <p n="3">Finally (very illustrious lord), after all provisions had been made, and the vessels were in order, the captain-general, a discreet and virtuous man, careful of his honour, would not commence his voyage without first making some good and wholesome ordinances, such as it is the good custom to make for those who go to sea.
  Nevertheless he did not entirely declare the voyage which he was going to make, so that his men should not from amazement and fear be unwilling to accompany him on so long a voyage, as he had undertaken in his intention.
- Considering the great and impetuous storms which are on the ocean sea, where I wished to go; and for another reason also, that is to say that the masters and captains of the other ships of his company did not love him: of this I do not know the reason, except by cause of his, the captain-general, being <nationality>Portuguese</nationality>, and they were <nationality>Spaniards</nationality> or Castilians, who for a long time have been in rivalry and ill will with one another.
+ Considering the great and impetuous storms which are on the ocean sea, where I wished to go; and for another reason also, that is to say that the masters and captains of the other ships of his company did not love him: of this I do not know the reason, except by cause of his, the captain-general, being <ethnicGroup>Portuguese</ethnicGroup>, and they were <ethnicGroup>Spaniards</ethnicGroup> or Castilians, who for a long time have been in rivalry and ill will with one another.
  Notwithstanding this all were obedient to him.
  He made his ordinances such as those which follow, so that during the storms at sea, which often come on by night and day, his ships should not go away and separate from one another.
  These ordinances he published and made over in writing to each master of the ships, and commanded them to be observed and inviolably kept, unless there were great and legitimate excuses, and appearance of not having been able to do otherwise.</p>
@@ -49,25 +50,25 @@
  The crews of this fleet were divided into three companies; the first belonged to the captain, the second to the pilot or nochier, and the third to the master.
  These regulations having been made, the captain-general deliberated on sailing, as follows.</p>
 
-<p n="6"><date when='8-10-1519'>Monday, the day of St. Laurence, the 10th of August</date>, in the year above mentioned, the fleet, provided with what was necessary for it, and carrying crews of different nations, to the number of two hundred and thirty-seven men in all the five ships, was ready to set sail from the mole of <placeName><placeName decLat='37.3891' decLon='-5.9845'>Seville</placeName></placeName>; and firing all the artillery, we made sail only on the foremast, and came to the end of a river named Betis, which is now called Guadalcavir.
- In going along this river we passed by a place named <placeName>Gioan de Farax</placeName>, where there was a large population of <ethnicGroup>Moors</ethnicGroup>, and there was a bridge over the river by which one went to <placeName><placeName decLat='37.3891' decLon='-5.9845'>Seville</placeName></placeName>.
+<p n="6"><date when='8-10-1519'>Monday, the day of St. Laurence, the 10th of August</date>, in the year above mentioned, the fleet, provided with what was necessary for it, and carrying crews of different nations, to the number of two hundred and thirty-seven men in all the five ships, was ready to set sail from the mole of <placeName>Seville</placeName>; and firing all the artillery, we made sail only on the foremast, and came to the end of a river named Betis, which is now called Guadalcavir.
+ In going along this river we passed by a place named <placeName>Gioan de Farax</placeName>, where there was a large population of <ethnicGroup>Moors</ethnicGroup>, and there was a bridge over the river by which one went to <placeName>Seville</placeName>.
  This bridge was ruined, however there had remained two columns which are at the bottom of the water, on which account it is necessary to have people of the country of experience and knowledge to point out the convenient spot for safely passing between these two columns, from fear of striking against them.
  Besides that, it is necessary in order to pass safely by this bridge and by other places on this river, that the water should be rather high.
- After having passed the two columns we came to another place named <placeName>Coria</placeName>, and passing by many little villages lying along the said river, at last we arrived at a castle, which belongs to the Duke of Medina Sidonia, named St. Lucar, where there is a port from which to enter the ocean sea.
+ After having passed the two columns we came to another place named <placeName>Coria</placeName>, and passing by many little villages lying along the said river, at last we arrived at a castle, which belongs to the Duke of Medina Sidonia, named <persName>St. Lucar</persName>, where there is a port from which to enter the ocean sea.
  It is entered by the east wind and you go out by the west wind.
- Near there is the cape of St. Vincent, which, according to cosmography, is in <geo select='lat' deg='37'>thirty-seven degrees of latitude</geo>, at twenty miles distance from the said port; and from the aforesaid town to this port by the river there are thirty-five or forty miles.
+ Near there is the <placeName>cape of St. Vincent</placeName>, which, according to cosmography, is in <geo lat='37'>thirty-seven degrees of latitude</geo>, at twenty miles distance from the said port; and from the aforesaid town to this port by the river there are thirty-five or forty miles.
  A few days afterwards the captain-general came along the said river with his boat, and the masters of the other ships with him, and we remained some days in this port to supply the fleet with some necessary things.
- We went every day to hear mass on shore, at a church named Our Lady of Barrameda, towards St. Lucar.
+ We went every day to hear mass on shore, at a church named Our Lady of Barrameda, towards <placeName>St. Lucar.</placeName>
  There the captain commanded that all the men of the fleet should confess before going on any further, in which he himself showed the way to the others.
  Besides he did not choose that anyone should bring any married woman, or others to the ships, for several good considerations.</p>
 
-<p n="7"><date when='9-20-1520'>Tuesday, the 20th September</date> of the said year, we set sail from St. Lucar, making the course of the south-west otherwise named Labeiche; and on the twenty-sixth of the said month we arrived at an island of great Canaria, named Teneriphe, which is in twenty-eight degrees latitude; there we remained three days and a half to take in provisions and other things which were wanted.
+<p n="7"><date when='9-20-1520'>Tuesday, the 20th September</date> of the said year, we set sail from <placeName>St. Lucar</placeName>, making the course of the south-west otherwise named Labeiche; and on the twenty-sixth of the said month we arrived at an island of great Canaria, named Teneriphe, which is in twenty-eight degrees latitude; there we remained three days and a half to take in provisions and other things which were wanted.
  After that we set sail thence and came to a port named Monterose, where we sojourned two days to supply ourselves with pitch, which is a thing necessary for ships.
  It is to be known that among the other isles which are at the said great Canaria, there is one, where not a drop of water is to be found proceeding from a fountain or a river, only once a day at the hour of midday, there descends a cloud from the sky which envelops a large tree which is in this island, and it falls upon the leaves of the tree, and a great abundance of water distils from these leaves, so that at the foot of the tree there is so large a quantity of water that it seems as if there was an ever-running fountain.
  The men who inhabit this place are satisfied with this water; also the animals, both domestic and wild, drink of it.</p>
 
-<p n="8"><date when='10-3-1520'>Monday, the third of October of the said year</date>, at the hour of midnight, we set sail, making the course auster, which the levantine mariners call Siroc, entering into the ocean sea.
- We passed the Cape Verd and the neighbouring islands in fourteen-and-a-half degrees, and we navigated for several days by the coast of Guinea or Ethiopia; where there is a mountain called Sierra Leona, which is in eight degrees latitude according to the art and science of cosmography and astrology.
+<p n="8"><date when='10-3-1520'>Monday, the third of October of the said year</date>, at the hour of midnight, we set sail, making the course auster, which the levantine mariners call <placeName>Siroc</placeName>, entering into the ocean sea.
+ We passed the Cape Verd and the neighbouring islands in fourteen-and-a-half degrees, and we navigated for several days by the coast of Guinea or Ethiopia; where there is a mountain called <placeName>Sierra Leona</placeName>, which is in eight degrees latitude according to the art and science of cosmography and astrology.
  Sometimes we had the wind contrary and at other times sufficiently good, and rains without wind.
  In this manner we navigated with rain for the space of sixty days until the equinoctial line, which was a thing very strange and unaccustomed to be seen, according to the saying of some old men and those who had navigated here several times.
  Nevertheless, before reaching this equinoctial line we had in fourteen degrees a variety of weather and bad winds, as much on account of squalls as for the head winds and currents which came in such a manner that we could no longer advance.
@@ -86,7 +87,7 @@
  There are also fish which fly, and we saw a great quantity of them together, so many that it seemed that it was an island in the sea.</p>
 
 <p n="9">After that we had passed the equinoctial line, towards the south, we lost the star of the tramontana, and we navigated between the south and Garbin, which is the collateral wind [or point] between south and west; and we crossed as far as a country named <placeName>Verzin</placeName>, which is in twenty-four degrees and a half of the antarctic sky.
- This country is from the cape St. Augustine, which is in eight degrees in the antarctic sky.
+ This country is from <placeName>the cape St. Augustine</placeName>, which is in eight degrees in the antarctic sky.
  At this place we had refreshments of victuals, like fowls and meat of calves, also a variety of fruits, called battate, pigne (pine-apples), sweet, of singular goodness, and many other things, which I have omitted mentioning, not to be too long.
  The people of the said place gave, in order to have a knife, or a hook for catching fish, five or six fowls, and for a comb they gave two geese, and for a small mirror, or a pair of scissors, they gave so much fish that ten men could have eaten of it.
  And for a bell (or hawk's-bell) they gave a full basket of the fruit named battate; this has the taste of a chestnut, and is of the length of a shuttle.
@@ -116,7 +117,7 @@
  The men are shaven, and wear no beard, because they pluck it out themselves, and for all clothing they wear a circle surrounded with the largest feathers of parrots, and they only cover their posterior parts, which is a cause of laughter and mockery.
  The people of this place, almost all, excepting women and children, have three holes in the lower lip, and carry, hanging in them, small round stones, about a finger in length.
  These kind of people, both men and women, are not very black, but rather brown, and they openly show their shame, and have no hair on the whole of their bodies.
- The king of this country is called Cacich, and there are here an infinite number of parrots, of which they give eight or ten for a looking-glass; there are also some little cat-monkeys having almost the appearance of a lion; they are yellow, and handsome, and agreeable to look at.
+ The king of this country is called <persName>Cacich</persName>, and there are here an infinite number of parrots, of which they give eight or ten for a looking-glass; there are also some little cat-monkeys having almost the appearance of a lion; they are yellow, and handsome, and agreeable to look at.
  The people of this place make bread, which is of a round shape, and they take the marrow of certain trees which are there, between the bark and the tree, but it is not at all good, and resembles fresh cheese.
  There are also some pigs which have their navel on the back, and large birds which have their beak like a spoon, and they have no tongue.
  For a hatchet or for a knife they used to give us one or two of their daughters as slaves, but their wives they would not give up for anything in the world.
@@ -138,7 +139,7 @@
  Seeing that, we landed a hundred men from the ships, and went after them to try and catch some others; however they gained in running away.
  This kind of people did more with one step than we could do at a bound.
  In this same river there were seven little islands, and in the largest of them precious stones are found.
- This place was formerly called the Cape of St. Mary, and it was thought there that from thence there was a passage to the Sea of Sur; that is to say, the South Sea.
+ This place was formerly called the<placeName> Cape of St. Mary</placeName>, and it was thought there that from thence there was a passage to the <placeName>Sea of Sur</placeName>; that is to say, the<placeName> South Sea.</placeName>
  And it is not found that any ship has ever discovered anything more, having passed beyond the said cape.
  And now it is no longer a cape, but it is a river which has a mouth seventeen leagues in width, by which it enters into the sea.
  In past time, in this river, these great men named <ethnicGroup>Canibali</ethnicGroup> ate a Spanish captain, named <persName>John de Sola</persName>, and sixty men who had gone to discover land, as we were doing, and trusted too much to them.</p>
@@ -182,8 +183,8 @@
  In this island the captain had caused a house to be made for putting some of the ships' things in whilst he remained there.
  This giant was of a still better disposition than the others, and was a gracious and amiable person, who liked to dance and leap.
  When he leapt he caused the earth to sink in a palm depth at the place where his feet touched.
- He was a long time with us, and at the end we baptised him, and gave him the name of John.
- This giant pronounced the name of Jesus, the Pater noster, Ave Maria, and his name as clearly as we did: but he had a terribly strong and loud voice.
+ He was a long time with us, and at the end we baptised him, and gave him the name of <persName>John.</persName>
+ This giant pronounced the name of <persName>Jesus</persName>, the Pater noster, <persName>Ave Maria</persName>, and his name as clearly as we did: but he had a terribly strong and loud voice.
  The captain gave him a shirt and a tunic of cloth, and seaman's breeches, a cap, a comb, some bells, and other things, and sent him back to where he had come from.
  He went away very joyous and satisfied.
  The next day this giant returned, and brought one of those large animals before mentioned, for which the captain gave him some other things, so that he should bring more.
@@ -233,7 +234,7 @@
  In this place they found incense, and ostriches, foxes, sparrows, and rabbits a good deal smaller than ours.
  We set up at the top of the highest mountain which was there a very large cross, as a sign that this country belonged to the King of <placeName>Spain</placeName>; and we gave to this mountain the name of Mount of Christ.</p>
 
-<p n="20">Departing thence, we found in fifty-one degrees less one-third <geo select="lat" deg='50' min='40' direction='S'>(50°40' S.</geo>
+<p n="20">Departing thence, we found in fifty-one degrees less one-third <geo lat='50' min='40' direction='S'>(50°40' S.</geo>
 ), in the <placeName>Antarctic</placeName>, a river of fresh water, which was near causing us to be lost, from the great winds which it sent out; but God, of his favour, aided us.
  We were about two months in this river, as it supplied fresh water and a kind of fish an ell long, and very scaly, which is good to eat.
  Before going away, the captain chose that all should confess and receive the body of our Lord like good <ethnicGroup>Christians</ethnicGroup>.</p>
@@ -340,13 +341,13 @@
  In this place they found incense, and ostriches, foxes, sparrows, and rabbits a good deal smaller than ours.
  We set up at the top of the highest mountain which was there a very large cross, as a sign that this country belonged to the King of <placeName>Spain</placeName>; and we gave to this mountain the name of Mount of Christ.</p>
 
-<p n="28">Departing thence, we found in fifty-one degrees less one-third <geo select="lat" deg='50' min='40' direction='S'>(50°40' S.)</geo>, in the <placeName>Antarctic</placeName>, a river of fresh water, which was near causing us to be lost, from the great winds which it sent out; but God, of his favour, aided us.
+<p n="28">Departing thence, we found in fifty-one degrees less one-third <geo lat='50' min='40' direction='S'>(50°40' S.)</geo>, in the <placeName>Antarctic</placeName>, a river of fresh water, which was near causing us to be lost, from the great winds which it sent out; but God, of his favour, aided us.
  We were about two months in this river, as it supplied fresh water and a kind of fish an ell long, and very scaly, which is good to eat.
  Before going away, the captain chose that all should confess and receive the body of our Lord like good <ethnicGroup>Christians</ethnicGroup>.</p>
 
 <chap>CHAPTER.</chap> 
 
-<chapter><p n="29">After going and taking the course to the fifty-second degree of the said <placeName>Antarctic</placeName> sky, <date when='10-21-1520'>on the day of the Eleven Thousand Virgins [October 21]</date>, we found, by a miracle, a strait which we called the Cape of the Eleven Thousand Virgins, this strait is a hundred and ten leagues long, which are four hundred and forty miles, and almost as wide as less than half a league, and it issues in another sea, which is called the peaceful sea; it is surrounded by very great and high mountains covered with snow.
+<p n="29">After going and taking the course to the fifty-second degree of the said <placeName>Antarctic</placeName> sky, <date when='10-21-1520'>on the day of the Eleven Thousand Virgins [October 21]</date>, we found, by a miracle, a strait which we called the Cape of the Eleven Thousand Virgins, this strait is a hundred and ten leagues long, which are four hundred and forty miles, and almost as wide as less than half a league, and it issues in another sea, which is called the peaceful sea; it is surrounded by very great and high mountains covered with snow.
  In this place it was not possible to anchor with the anchors, because no bottom was found, on which account they were forced to put the moorings of twenty-five or thirty fathoms length on shore.
  This strait was a round place surrounded by mountains, as I have said, and the greater number of the sailors thought that there was no place by which to go out thence to enter into the peaceful sea.
  But the captain-general said that there was another strait for going out, and said that he knew it well, because he had seen it by a marine chart of the King of Portugal, which map had been made by a great pilot and mariner named Martin of Bohemia.
@@ -362,7 +363,7 @@
 <p n="30">After having entered inside this strait we found that there were two mouths, of which one trended to the Sirocco (S.E.), and the other to the Garbin (S.W.).
  On that account the captain again sent the two ships, St. Anthony and Conception, to see if the mouth which was towards Sirocco had an outlet beyond into the said peaceful sea.
  One of these two ships, named St. Anthony, would not wait for the other ship, because those who were inside wished to return to <placeName>Spain</placeName>: this they did, and the principal reason was on account of the pilot of the said ship being previously discontented with the said captain-general, because that before this armament was made, this pilot had gone to the Emperor to talk about having some ships to discover countries.
- But, on account of the arrival of the captain-general, the Emperor did not give them to this pilot, on account of which he agreed with some <nationality>Spaniards</nationality>, and the following night they took prisoner the captain of their ship, who was a brother of the captain-general, and who was named Alvar de Meschite; they wounded him, and put him in irons.
+ But, on account of the arrival of the captain-general, the Emperor did not give them to this pilot, on account of which he agreed with some <ethnicGroup>Spaniards</ethnicGroup>, and the following night they took prisoner the captain of their ship, who was a brother of the captain-general, and who was named Alvar de Meschite; they wounded him, and put him in irons.
  So they carried him off to <placeName>Spain</placeName>.
  And in this ship, which went away and returned, was one of the two above-mentioned giants whom we had taken, and when he felt the heat he died.
  The other ship, named the Conception, not being able to follow that one, was always waiting for it, and fluttered hither and thither.
@@ -390,7 +391,7 @@
  This herb grows near the springs, and from not finding anything else we ate of it for several days.
  I think that there is not in the world a more beautiful country, or better strait than this one.
  In this ocean sea one sees a very amusing chase of fish, which are of three sorts, of an ell or more in length, and they call these fish Dorades, Albacores, and Bonitos; these follow and pursue another sort of fish which flies, which they call Colondriny, which are a foot long or more, and are very good to eat.
- When these three sorts of fish find in the water any of these flying fish, immediately they make them come out of the water, and they fly more than a cross bow-shot, as long as their wings are wet; and whilst these fishes fly the other three run after them under the water, seeing the shadow of those that fly: and the moment they fall into the water they are seized upon and eaten by the others which pursue them, which is a thing marvellous and agreeable to see.</p>
+ When these three sorts of fish find in the water any of these flying fish, immediately they make them come out of the water, and they fly more than a cross bow-shot, as long as their wings are wet; and whilst these fishes fly the other three run after them under the water, seeing the shadow of those that fly: and the moment they fall into the water they are seized upon and eaten by the others which pursue them, which is a thing marvellous and agreeable to see.
 
 the sun, rain, and wind, and we left them for four or five days in the sea, and then we put them a little on the embers, and so ate them; also the sawdust of wood, and rats which cost half-a-crown each, moreover enough of them were not to be got.
  Besides the above-named evils, this misfortune which I will mention was the worst, it was that the upper and lower gums of most of our men grew so much that they could not eat, and in this way so many suffered, that nineteen died, and the other giant, and an Indian from the county of <placeName>Verzin</placeName>.
@@ -400,12 +401,12 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  This was well named Pacific, for during this same time we met with no storm, and saw no land except two small uninhabited islands, in which we found only birds and trees.
  We named them the Unfortunate Islands; they are two hundred leagues apart from one another, and there is no place to anchor, as there is no bottom.
  There we saw many sharks, which are a kind of large fish which they call Tiburoni.
- The first isle is in <geo select="lat" deg='15'>fifteen degrees of austral latitude</geo>, and the other island is in<geo select="lat" deg='9'> nine degrees</geo>.
+ The first isle is in <geo lat='15'>fifteen degrees of austral latitude</geo>, and the other island is in<geo lat='9'> nine degrees</geo>.
  With the said wind we ran each day fifty or sixty leagues, or more; now with the wind astern, sometimes on a wind or otherwise.
- And if our Lord and his Mother had not aided us in giving us good weather to refresh ourselves with provisions and other things, we should all have died of hunger in this very vast sea, and I think that never man will undertake to perform such a voyage.
+ And if our Lord and his Mother had not aided us in giving us good weather to refresh ourselves with provisions and other things, we should all have died of hunger in this very vast sea, and I think that never man will undertake to perform such a voyage.</p>
  
 <p n="33">When we had gone out of this strait, if we had always navigated to the west we should have gone without finding any land except the <placeName>Cape of the Eleven Thousand Virgins</placeName>, which is the eastern head of the strait in the ocean sea, with the <placeName>Cape of Desire</placeName> at the west in the Pacific sea.
- These two capes are exactly in <geo select="lat" deg='52'>fifty-two degrees of latitude</geo> of the antarctic pole.
+ These two capes are exactly in <geo lat='52'>fifty-two degrees of latitude</geo> of the antarctic pole.
  </p>
 
 <p n="34">The antarctic pole is not so covered with stars as the arctic, for there are to be seen there many small stars congregated together, which are like to two clouds a little separated from one another, and a little dimmed, in the midst of which are two stars, not very large, nor very brilliant, and they move but little: these two stars are the antarctic pole.
@@ -417,24 +418,24 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
 
 <p n="35">During this time of two months and twelve days we navigated between west and north-west (maestral), and a quarter west of north-west, and also north-west, until we came to the equinoctial line, which was at [a point] one hundred and twenty-two degrees distant from the line of repartition.
  This line of delimitation is thirty degrees distant from the meridian, and the meridian is three degrees distant from the Cape Verd towards the east.
- In going by this course we passed near two very rich islands; one is in <geo select="lat" deg='22'>twenty degrees latitude</geo> in the antarctic pole, and is called <placeName>Cipanghu</placeName>; the other, in fifteen degrees of the same pole, is named Sumbdit Pradit.
+ In going by this course we passed near two very rich islands; one is in <geo lat='22'>twenty degrees latitude</geo> in the antarctic pole, and is called <placeName>Cipanghu</placeName>; the other, in fifteen degrees of the same pole, is named Sumbdit Pradit.
  After we had passed the equinoctial line we navigated between west, and north-west and a quarter west, by north-west.
  Afterwards we made two hundred leagues to westwards, then changed the course to a quarter of south-west, until in thirteen degrees north latitude, in order to approach the land of Cape Gaticara, which cape (under correction of those who have made cosmography), (for they have never seen it), is not placed where they think, but is towards the north, in twelve degrees or thereabouts.
  </p>
-<p n="36">After having navigated sixty leagues by the said course, in <geo select="lat" deg='12'>twelve degrees latitude</geo>, and <geo select="lon" deg='146'>a hundred and forty-six of longitude</geo>, on Wednesday, the 6th of March, we discovered a small island in the north-west direction,and two others lying to the south-west.
+<p n="36">After having navigated sixty leagues by the said course, in <geo lat='12'>twelve degrees latitude</geo>, and <geo lon='146'>a hundred and forty-six of longitude</geo>, on Wednesday, the 6th of March, we discovered a small island in the north-west direction,and two others lying to the south-west.
  One of these islands was larger and higher than the other two.
  The captain-general wished to touch at the largest of these three islands to get refreshments of provisions; but it was not possible because the people of these islands entered into the ships and robbed us, in such a way that it was impossible to preserve oneself from them.
  Whilst we were striking and lowering the sails to go ashore, they stole away with much address and diligence the small boat called the skiff, which was made fast to the poop of the captain's ship, at which he was much irritated, and went on shore with forty armed men, burned forty or fifty houses, with several small boats, and killed seven men of the island; they recovered their skiff.
  After this we set sail suddenly, following the same course.
  Before we went ashore some of our sick men begged us that if we killed man or woman, that we should bring them their entrails, as they would see themselves suddenly cured.
- </p></chapter>
+ </p>
 <chap>CHAPTER </chap>
-<chapter><p n="37">It must be known that when we wounded any of this kind of people with our arrows, which entered inside their bodies, they looked at the arrow, and then drew it forth with much astonishment, and immediately afterwards they died.
+<p n="37">It must be known that when we wounded any of this kind of people with our arrows, which entered inside their bodies, they looked at the arrow, and then drew it forth with much astonishment, and immediately afterwards they died.
  Immediately after we sailed from that island, following our course, and those people seeing that we were going away followed us for n league, with a hundred small boats, or more, and they approached our ships, showing to us fish, and feigning to give it to us.
  But they threw stones at us, and then ran away, and in their flight they passed with their little boats between the boat which is towed at the poop and the ship going under full sail; but they did this so quickly, and with such skill that it was a wonder.
  And we saw some of these women, who cried out and tore their hair, and I believe that it was for the love of those whom we had killed.
  </p>
-</chapter>
+
 
 
 
@@ -501,7 +502,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  There is much white coral to be found here, and large trees which bear fruit smaller than an almond, and which are like pines.
  There were also many palm trees both good and bad.
  In this place there were many circumjacent islands, on which account we named them the archipelago of St. Lazarus, because we stayed there on the day and feast of St. Lazarus.
- This region and archipelago is in <geo select="lat" deg='10' direction='N'>ten degrees north latitude</geo>, and <geo select="lon" deg='161'>a hundred and sixty-one degrees longitude</geo> from the line of demarcation.</p>
+ This region and archipelago is in <geo lat='10' direction='N'>ten degrees north latitude</geo>, and <geo lon='161'>a hundred and sixty-one degrees longitude</geo> from the line of demarcation.</p>
 
 <p n="43"><date when='3-22-1521'>Friday, the 22nd of March</date>, the above-mentioned people, who had promised us to return, came about midday, with two boats laden with the said fruit cochi, sweet oranges, a vessel of palm wine, and a cock, to give us to understand that they had poultry in their country, so that we bought all that they brought.
  The lord of these people was old, and had his face painted, and had gold rings suspended to his ears, which they name Schione, and the others had many bracelets and rings of gold on their arms, with a wrapper of linen round their head.
@@ -607,7 +608,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  These people chew most of their time a fruit which they call areca, which is something of the shape of a pear; they cut it in four quarters, and after they have chewed it for a long time they spit it out, from which afterwards they have their mouths very red.
  They find themselves the better from the use of this fruit because it refreshes them much, for this country is very hot, so that they could not live without it.
  In this island there is a great quantity of dogs, cats, pigs, fowls, and goats, rice, ginger, cocos, figs, oranges, lemons, millet, wax, and gold mines.
- This island is in <geo select="lat" deg='9 2/3' direction='N'>nine degrees and two-thirds north latitude</geo>, and one hundred and <geo select="lon" deg='62'>sixty-two longitude</geo> from the line of demarcation: it is twenty-five leagues distant from the other island where we found the two fountains of fresh water.
+ This island is in <geo lat='9' direction='N'>nine degrees and two-thirds north latitude</geo>, and one hundred and <geo lon='62'>sixty-two longitude</geo> from the line of demarcation: it is twenty-five leagues distant from the other island where we found the two fountains of fresh water.
  This island is named <placeName>Mazzava</placeName>.</p>
 
 <p n="53">We remained seven days in this place; then we took the tack of Maestral, passing through the midst of five isles, that is to say, <placeName>Ceylon</placeName>, <placeName>Bohol</placeName>, <placeName>Canighan</placeName>, <placeName>Baibai</placeName>, and <placeName>Satighan</placeName>.
@@ -647,7 +648,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  Besides that, he said that all the captains who came to his country had been accustomed to make a present to him, and he to them, and therefore they should ask their captain if he would observe the custom.
  Our people answered that he would; but as the king wished to keep up the custom, let him begin and make a present, and then the captain would do his duty.</p>
 
-<p n="56"><date>Tuesday</date> morning following the King of <placeName>Mazzava</placeName>, with the Moor, came to the ship, and saluted the captain on behalf of the King of Zzubu, and said that the king was preparing a quantity of provisions, as much as he could, to make a present of to him, and that after dinner he would send two of his nephews, with others of his principal people, to make peace with him.
+<p n="56">Tuesday morning following the King of <placeName>Mazzava</placeName>, with the Moor, came to the ship, and saluted the captain on behalf of the King of Zzubu, and said that the king was preparing a quantity of provisions, as much as he could, to make a present of to him, and that after dinner he would send two of his nephews, with others of his principal people, to make peace with him.
  Then the captain had one of his men armed with his own armour, and told him that all of us would fight armed in that manner, at which the <ethnicGroup>Moorish</ethnicGroup> merchant was rather astonished; but the captain told him not to be afraid, and that our arms were soft to our friends and rough to our enemies; and that as a cloth wipes away the sweat from a man, so our arms destroy the enemies of our faith.
  The captain said this to the Moor, because he was more intelligent than the others, and for him to relate it all to the King of Zzubu.</p>
 
@@ -691,13 +692,13 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  These girls were naked except from the waist to the knees, where they wore a wrap made of the palm tree cloth, which covered their middles, and some were quite naked.
  There we made a repast, and then returned to the ships.</p>
 
-<p n="59"><date>Wednesday</date> morning, because the night before one of our men had died, the interpreter and I, by order of the captain, went to ask the king for a place where we might bury the deceased.
+<p n="59">Wednesday morning, because the night before one of our men had died, the interpreter and I, by order of the captain, went to ask the king for a place where we might bury the deceased.
  We found the king accompanied by a good many people, and, after paying him due honour, we told him of the death of our man, and that the captain prayed him that he might be put into the ground.
  He replied that if he and his people were ready to obey our master, still more reason was there for his land and country being subject to him.
  After that we said we wished to consecrate the grave in our fashion and place a cross on it.
  The sovereign said that he was content, and that he would worship that cross as we did.
  The deceased was buried in the middle of the open space of the town, as decently as possible, and performing the above-mentioned ceremonies to set them a good example, and in the evening we buried another.
- This done, we brought a good quantity of merchandise into the town of this king, and placed it in a house, and he took it under his charge and promised that no one would do harm or injury to the king.
+ This done, we brought a good quantity of merchandise into the town of this <rank>king</rank>, and placed it in a house, and he took it under his charge and promised that no one would do harm or injury to the king.
  Four of our men were chosen to despatch and sell this merchandise.
  These people live with justice, and good weight and measure, loving peace, and are people who love ease and pleasure.
  They have wooden scales, after the fashion of those of north of the Loire, for weighing their merchandise.
@@ -721,7 +722,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  When we landed the ships discharged all their artillery, and from fear of it the people ran away in all directions.
  The captain and the king embraced one another, and then joyously we went near the scaffolding, where the captain and the king sat on two chairs, one covered with red, the other with violet velvet.
  The principal men sat on cushions, and the others on mats, after the fashion of the country.
- Then the captain began to speak to the king through the interpreter to incite him to the faith of Jesus Christ, and told him that if he wished to be a good Christian, as he had said the day before, that he must burn all the idols of his country, and, instead of them, place a cross, and that everyone should worship it every day on their knees, and their hands joined to heaven: and he showed him how he ought every day to make the sign of the cross.
+ Then the captain began to speak to the king through the interpreter to incite him to the faith of <persName>Jesus Christ</persName>, and told him that if he wished to be a good Christian, as he had said the day before, that he must burn all the idols of his country, and, instead of them, place a cross, and that everyone should worship it every day on their knees, and their hands joined to heaven: and he showed him how he ought every day to make the sign of the cross.
  To that the king and all his people answered that they would obey the commands of the captain and do all that he told them.
  The captain took the king by the hand, and they walked about on the scaffolding, and when he was baptised he said that he would name him  Don Charles, as the emperor his sovereign was named; and he named the prince Don Fernand, after the brother of the emperor, and the King of <placeName>Mazzava</placeName> Jehan: to the Moor he gave the name of Christopher, and to the others each a name of his fancy.
  Thus, before mass, there were fifty men baptised.
@@ -733,7 +734,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  She came with forty ladies, and we conducted them on to the scaffolding; then made her sit down on a cushion, and her women around her, until the priest was ready.
  During that time they showed her an image of our Lady, of wood, holding her little child, which was very well made, and a cross.
  When she saw it, she had a greater desire to be a Christian, and, asking for baptism, she was baptised and named Jehanne, like the mother of the emperor.
- The wife of the prince, daughter of this queen, had the name of <persName>Catherine, the Queen of <placeName>Mazzava</placeName> Isabella</persName>, and the others each their name.
+ The wife of the prince, daughter of this queen, had the name of <persName>Catherine</persName>, the Queen of <placeName>Mazzava Isabella</placeName>, and the others each their name.
  That day we baptised eight hundred persons of men, women, and children.
  The Queen was young and handsome, covered with a black and white sheet; she had the mouth and nails very red, and wore on her head a large hat made of leaves of palm, with a crown over it made of the same leaves, like that of the Pope.
  After that she begged us to give her the little wooden boy to put in the place of the idols.
@@ -764,8 +765,8 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
 <p n="67">The captain-general, who had informed the king and all those who had been baptised of the obligation they were under of burning their idols, which they had promised to do, seeing that they retained them and made them offerings of meat, reproved them severely for it.
  They thought to excuse themselves sufficiently by saying that they did not do that now on their own account, but for a sick person, for the idols to restore him his health.
  This sick man was a brother of the prince, and was reputed to be the most valiant and wise man in the island, and his illness was so severe that for four days he had not spoken.
- Having heard this, the captain, seized with zeal for religion, said that if they had a true faith in Jesus Christ, they should burn all the idols, and the sick man should be baptised, and he would be immediately cured, of which he was so certain that he consented to lose his head if the miracle did not take place.
- The king promised that all this should be done, because he truly believed in Jesus Christ.
+ Having heard this, the captain, seized with zeal for religion, said that if they had a true faith in <persName>Jesus Christ</persName>, they should burn all the idols, and the sick man should be baptised, and he would be immediately cured, of which he was so certain that he consented to lose his head if the miracle did not take place.
+ The king promised that all this should be done, because he truly believed in <persName>Jesus Christ</persName>.
  Then we arranged, with all the pomp that was possible, a procession from the place to the house of the sick man.
  We went there, and indeed found him unable to speak or to move.
  We baptised him, with two of his wives and ten girls.
@@ -863,7 +864,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
 
 <p n="79">In the afternoon the king himself with our consent, sent to tell the inhabitants of <placeName>Matan</placeName>, that if they would give up to us the body of our captain, and of our other companions who were killed in this battle, we would give them as much merchandise as they might wish for; but they answered that on no account would they ever give up that man, but they wished to preserve him as a monument of their triumph.
  When the death of the captain was known, those who were in the city to trade, had all the merchandise at once transported to the ships.
- We then elected in the place of the captain, Duarte Barbosa, a <nationality>Portuguese</nationality>, and a relation of the captain's, and <persName>Juan Serrano a Spaniard</persName>.</p>
+ We then elected in the place of the captain, Duarte Barbosa, a <ethnicGroup>Portuguese</ethnicGroup>, and a relation of the captain's, and <persName>Juan Serrano a Spaniard</persName>.</p>
 
 <p n="80">Our interpreter, who was a slave of the captain-general, and was named Henry, having been slightly wounded in the battle, would not go ashore any more for the things which we required, but remained all day idle, and wrapped up in his mat (Schiavina).
  Duarte Barbosa, the commander of the flag ship, found fault with him, and told him that though his master was dead, he had not become free on that account, but that when we returned to <placeName>Spain</placeName> he would return him to Doña Beatrice, the widow of the captain-general; at the same time he threatened to have him flogged, if he did not go on shore quickly, and do what was wanted for the service of the ships.
@@ -872,7 +873,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  After that the slave returned on board, and showed more intelligence and attention than he had done before.</p>
 
 <p n="81"><date when='5-1-1521'>Wednesday morning, the 1st of May</date>, the Christian king sent to tell the two commanders that the jewels prepared as presents for the King of <placeName>Spain</placeName> were ready, and he invited them to come that same day to dine with him, with some of his most honoured companions, and he would give them over to them.
- The commanders went with twenty-four others, and amongst them was our astrologer named San Martin of <placeName><placeName decLat='37.3891' decLon='-5.9845'>Seville</placeName></placeName>.
+ The commanders went with twenty-four others, and amongst them was our astrologer named San Martin of <placeName>Seville</placeName>.
  I could not go because I was swelled with a wound from a poisoned arrow in the forehead.
  Juan Carvalho, with the chief of police, who also were invited, turned back, and said that they had suspected some bad business, because they had seen the man who had recovered from illness by a miracle, leading away the priest to his own house.
  They had hardly spoken these words when we heard great lamentations and cries.
@@ -886,31 +887,31 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
 <p n="82">In this island of <placeName>Zubu</placeName> there are dogs and cats, and other animals, whose flesh is eaten; there is also rice, millet, panicum, and maize; there are also figs, oranges, lemons, sugar-canes, cocos, gourds, ginger, honey, and other such things; they also make palm-wine of many qualities.
  Gold is abundant.
  The island is large, and has a good port with two entrances: one to the west, and the other to the east-north-east.
- It is in <geo select="lat" deg='10' direction='N'>ten degrees north latitude</geo> and <geo select="lon" deg='154' direction='E'>154 east longitude </geo>from the line of demarcation.
+ It is in <geo lat='10' direction='N'>ten degrees north latitude</geo> and <geo lon='154' direction='E'>154 east longitude </geo>from the line of demarcation.
 </p>
 
 <p n="83">In this island there are several towns, each of which has its principal men or chiefs.
  Here are the names of the towns and their chiefs:— </p>
 
-<p n="84">Cingapola: its chiefs are Cilaton, Ciguibucan, Cimaninga, Cimaticat, Cicanbul.</p>
+<p n="84">Cingapola: its chiefs are <persName>Cilaton</persName>, <persName>Ciguibucan</persName>, <persName>Cimaninga</persName>, <persName>Cimaticat</persName>, <persName>Cicanbul</persName>.</p>
 
-<p n="85">Mandani: its chief is Aponoaan.</p>
+<p n="85">Mandani: its chief is <persName>Aponoaan</persName>.</p>
 
-<p n="86">Lalan: its chief is Teten.</p>
+<p n="86">Lalan: its chief is <persName>Teten</persName>.</p>
 
-<p n="87">Lalutan: its chief is Japau.</p>
+<p n="87">Lalutan: its chief is <persName>Japau</persName>.</p>
 
-<p n="88">Lubucin: its chief is Cilumai.</p>
+<p n="88">Lubucin: its chief is <persName>Cilumai</persName>.</p>
 
 <p n="89">All these countries were in obedience to us, and paid a kind of tribute.</p>
 
-<p n="90">Near to <placeName>Zubu</placeName> there is, as we said, the island of <placeName>Matan</placeName>, the most considerable town of which is called <placeName>Matan</placeName>, and its chiefs are Zula and Cilapulapu.
+<p n="90">Near to <placeName>Zubu</placeName> there is, as we said, the island of <placeName>Matan</placeName>, the most considerable town of which is called <placeName>Matan</placeName>, and its chiefs are <persName>Zula</persName> and <persName>Cilapulapu</persName>.
  The village, which we burned on the occasion of the fatal battle, is named <placeName>Bulaia</placeName>.</p>
 
 <p n="91">In this island, before we lost our captain-general, we had news of <placeName>Maluco</placeName>.</p></book>
 
 <book>(Book III of the Milan Edition.)
-<title>Departure from <placeName>Zubu</placeName>.</title> 
+Departure from <placeName>Zubu</placeName>. 
  
  <p n="92">When we were at a distance of eighteen leagues from the island of <placeName>Zubu</placeName>, near the head of another island called Bohol, in the midst of that archipelago, seeing that our crews were too much reduced in number, so that they were not sufficient for managing all the three ships, we burned the Conception after transporting into the other two all that it contained that was servicable.
  We then took the S. S.W.course, coasting along an island called Panilongon, where the people were black as in Ethiopia.</p>
@@ -953,17 +954,17 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  They showed me certain valleys, making signs that there was more gold there than hairs on the head, but that as they had not iron to dig it out, it required great labour to acquire it, and which they did not choose to undergo.
  The king is named <persName>Raja Calanao</persName>.</p>
 
-<p n="99">This part of the island called <placeName>Chipit</placeName> is the same land as Butuan and Calagan, it passes above Bohol, and borders on <placeName>Massava</placeName>.
- Its port is good enough; it is in <geo select="lat" deg='8' direction='N'>8° N.latitude</geo>, and <geo select="lon" deg='167'>167° of longitude</geo> from the line of demarcation; it is fifty leagues distance from <placeName>Zubu</placeName>.
+<p n="99">This part of the island called <placeName>Chipit</placeName> is the same land as Butuan<placeName></placeName> and <placeName>Calagan</placeName>, it passes above <placeName>Bohol</placeName>, and borders on <placeName>Massava</placeName>.
+ Its port is good enough; it is in <geo lat='8' direction='N'>8° N.latitude</geo>, and <geo lon='167'>167° of longitude</geo> from the line of demarcation; it is fifty leagues distance from <placeName>Zubu</placeName>.
  Towards the North-west is the island of <placeName>Lozon</placeName>, which is at two days' distance; a large island, to which come to trade every year six or eight junks of the people called Lequii.</p>
 
-<p n="100">On leaving this place, and taking our course between west and south-west, we touched at an almost uninhabited island, which afterwards we learned was named Cagayan.
+<p n="100">On leaving this place, and taking our course between west and south-west, we touched at an almost uninhabited island, which afterwards we learned was named <placeName>Cagayan</placeName>.
  The few people there are <ethnicGroup>Moors</ethnicGroup>, who have been banished from an island called <placeName>Burné.</placeName>
  They go naked like the others, and carry blow-pipes with small quivers at their sides full of arrows, and a herb with which they poison them.
  They have daggers, with hilts adorned with gold and precious stones, lances, bucklers, and small cuirasses of buffaloes' hide.
  These people took us for something Divine or holy.
  There are some very large trees in this island, but little victuals.
- It is in <geo select="lat" deg='7' min='30' direction='N'>7° 30' North latitude</geo>, and forty-three leagues from <placeName>Chipit</placeName>.</p>
+ It is in <geo lat='7' min='30' direction='N'>7° 30' North latitude</geo>, and forty-three leagues from <placeName>Chipit</placeName>.</p>
 
 <p n="101">Continuing our voyage we changed our course to between West and North-west, and after running twenty-five leagues, we arrived at a large island, which we found well provided with victuals, and it was great good fortune for us since we were so reduced by hunger and so badly supplied, that we were several times on the point of abandoning the ships, and establishing ourselves on some land, in order to live.
  In this island, which we learned was named <placeName>Palaoan</placeName>, we found pigs, goats, fowls, yams, bananas of various kinds, some of which are half a cubit long, and as thick as the arm, others are only a span long, and others are still smaller, and these are the best; they have cocoa nuts, sugar canes, and certain roots like turnips.
@@ -1043,7 +1044,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  In front of the king's house there is a wall made of great bricks, with barbicans like forts, upon which were fifty-six bombards of metal, and six of iron.
  They fired many shots from them during the two days that we passed in the city.</p>
 
-<p n="114">The king to whom we presented ourselves is a Moor, and is named Raja Siripada: he is about forty years of age, and is rather corpulent.
+<p n="114">The king to whom we presented ourselves is a Moor, and is named <persName>Raja Siripada</persName>: he is about forty years of age, and is rather corpulent.
  No one serves him except ladies who are the daughters of the chiefs.
  No one speaks to him except by means of the blow-pipe as has been described above.
  He has ten scribes, who write down his affairs on thin bark of trees, and are called chiritoles.
@@ -1053,7 +1054,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  At this sight, and fearing treachery, we hurriedly set sail, and left behind an anchor in the sea.
  Our suspicions increased when we observed that behind us were certain junks which had come the day before.
  Our first operation was to free ourselves from the junks, against which we fired, capturing four and killing many people: three or four other junks went aground in escaping.
- In one of those which we captured was a son of the king of the isle of <placeName>Luzon</placeName>, who was captain-general of the King of Burné, and who was coming with the junks from the conquest of a great city named <placeName>Laoe</placeName>, situated on a headland of this island opposite <placeName><placeName>Java</placeName> Major</placeName>.
+ In one of those which we captured was a son of the king of the isle of <placeName>Luzon</placeName>, who was captain-general of the King of Burné, and who was coming with the junks from the conquest of a great city named <placeName>Laoe</placeName>, situated on a headland of this island opposite <placeName>Java</placeName> Major.
  He had made this expedition and sacked that city because its inhabitants wished rather to obey the King of <placeName>Java</placeName> than the <ethnicGroup>Moorish</ethnicGroup> King of Burné.
  The <ethnicGroup>Moorish</ethnicGroup> king having heard of the ill-treatment by us of his junks, hastened to send to say, by means of one of our men who was on shore to traffic, that those vessels had not come to do any harm to us, but were going to make war against the <ethnicGroup>Gentiles</ethnicGroup>, in proof of which they showed us some of the heads of those they had slain.</p>
 
@@ -1084,7 +1085,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  Here is found also cinnamon, ginger, mirabolans, oranges, lemons, sugarcanes, melons, gourds, cucumbers, cabbage, onions.
  There are also many animals, such as elephants, horses, buffaloes, pigs, goats, fowls, geese, crows, and others.</p>
 
-<p n="121">They say that the King of Burné has two pearls as large as a hen's eggs, and so perfectly round that if placed on a smooth table they cannot be made to stand still.
+<p n="121">They say that the King of <placeName>Burné</placeName> has two pearls as large as a hen's eggs, and so perfectly round that if placed on a smooth table they cannot be made to stand still.
  When we took him the presents I made signs to him that I desired to see them, and he said that he would show them to me, but he did not do so.
  On the following day some of the chief men told me that they had indeed seen them.</p>
 
@@ -1105,7 +1106,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  One of these junks carries as much cargo as our ships.
  The masts are of bamboo, and the sails of bark of trees.
  This island is so large that to sail round it with a prahu would require three months.
- It is in <geo select="lat" deg='5' min='15' direction='N'> 5° 15' north latitude</geo> and <geo select="lon" deg='176' min='40'>176° 40' of longitude</geo> from the line of demarcation.</p>
+ It is in <geo lat='5' min='15' direction='N'> 5° 15' north latitude</geo> and <geo lon='176' min='40'>176° 40' of longitude</geo> from the line of demarcation.</p>
 
 <p n="125">On leaving this island we returned backwards to look for a convenient place for caulking our ships, which were leaking, and one of them, through the negligence of the pilot, struck on a shoal near an island named Bibalon; but, by the help of God, we got her off.
  We also ran another great danger, for a sailor, in snuffing a candle, threw the lighted wick into a chest of gunpowder; but he was so quick in picking it out that the powder did not catch fire.</p>
@@ -1114,7 +1115,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  We took one laden with cocoanuts on its way to Burné; but the crew escaped to a small island, and the other three prahus escaped behind some other small islands.
  </p>
 
-<p n="127">Between the northern cape of <placeName>Burné</placeName>; and the island named Cimbonbon, situated in <geo select='lat' deg='8' min='7' direction="N">8° 7' N.</geo>
+<p n="127">Between the northern cape of <placeName>Burné</placeName>; and the island named <placeName>Cimbonbon</placeName>, situated in <geo lat='8' min='7' direction="N">8° 7' N.</geo>
  latitude there is a very convenient port for refitting ships, and we entered it; but as we were wanting many things necessary for our work, we had to spend there forty-two days.
  Each one worked at one thing or another according to the best of his knowledge or ability; but our greatest labour was going to get wood in the thickets, as the ground was covered with briars and thorny shrubs, and we had no shoes.
  </p>
@@ -1146,10 +1147,10 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  We passed between certain little mountains, around which we found many weeds, although there was there a great depth.
  Passing between these islets it seemed that we were in another sea.</p>
 
-<p n="131">Having left Cipit to the east, we saw to the west two islands called Zolo and Taghima, near which islands pearls are found.
+<p n="131">Having left <placeName>Cipit</placeName> to the east, we saw to the west two islands called <placeName>Zolo</placeName> and Taghima, near which islands pearls are found.
  The two pearls of the King of Burné, of which I have spoken, were found there, and this is the manner in which he obtained them, according to the account which was given me of it.
- The King of Burné married a daughter of the King of Zolo, who told him that her father had these two big pearls.
- He desired to have them, and decided on getting them by any means, and one night he set out with five hundred prahus full of armed men, and went to Zolo, and took the king with his two sons, and brought them to Burné, and did not restore them to liberty until they gave him the two pearls.</p>
+ The King of Burné married a daughter of the King of <placeName>Zolo</placeName>, who told him that her father had these two big pearls.
+ He desired to have them, and decided on getting them by any means, and one night he set out with five hundred prahus full of armed men, and went to <placeName>Zolo</placeName>, and took the king with his two sons, and brought them to Burné, and did not restore them to liberty until they gave him the two pearls.</p>
 
 <p n="132">Continuing our course east and a quarter north-east we passed near two inhabited places called <placeName>Cavit</placeName> and Subanin, and passed near an island called Monoripa, ten leagues distant from the before-mentioned islets.
  The inhabitants of this island always live in their vessels, and have no houses on shore.
@@ -1169,7 +1170,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  These men were better made and more robust than all those we had seen hitherto, and they were all chief men of Mindanao.
  There was among them a brother of the king who said that he well knew where <placeName>Maluco</placeName> was.
  Afterwards, following his indications, we left the north-east course which we held, and took a south-east course.
- We were then in <geo select="lat" deg='6' min='7' direction='N'>6° 7' N</geo>.
+ We were then in <geo lat='6' min='7' direction='N'>6° 7' N</geo>.
  latitude and thirty leagues distant fom <placeName>Cavit</placeName>.</p>
 
 <p n="135">We were told that at a cape of this island near to a river there are men who are rather hairy, great warriors, and good archers, armed with swords a span broad.
@@ -1184,7 +1185,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  In gratitude for their assistance we promised a share to each of the saints, and we gave to each an offering.</p>
 
 <p n="137">Continuing our voyage we entered a port between the two islands <placeName>Sarangani</placeName> and <placeName>Candigar</placeName>, and cast anchor to the east, near a village of Sarangani, where pearls and gold are found.
- This port is in<geo select="lat" deg='5' min='9' direction='N'> 5° 9' N.latitude,</geo> and fifty leagues from <placeName>Cavit</placeName>.
+ This port is in<geo lat='5' min='9' direction='N'> 5° 9' N.latitude,</geo> and fifty leagues from <placeName>Cavit</placeName>.
  The inhabitants are <ethnicGroup>Gentiles</ethnicGroup> and go naked like the others.</p>
 
 <p n="138">Having remained here a day we compelled by force two pilots to come with us to show us the way to <placeName>Maluco</placeName>.
@@ -1198,7 +1199,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
 <p n="140">Seeing that it was impossible to double the head of this island we passed below it, where we saw many small islands.
  This large island has four kings whose names are Raja <placeName>Matan</placeName>datu, Raja Laga, Raja Bapti, and Raja Parabu.
  These are <ethnicGroup>Gentiles</ethnicGroup>.
- It is in <geo select="lat" deg='3' min='30' direction='N'>3° 30' N.</geo>latitude and twenty-seven leagues from Sarangani.</p>
+ It is in <geo lat='3' min='30' direction='N'>3° 30' N.</geo>latitude and twenty-seven leagues from Sarangani.</p>
 
 <p n="141">Continuing our course in the same direction we passed near five islands named Cheoma, Carachita, Para, Zangalura, and Cian.
  This last is ten leagues distant from Sanghir.
@@ -1210,7 +1211,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
 <p n="142"><date when='11-6-18'>Wednesday, the 6th of November</date>, having passed beyond these two islands, we discovered four other rather high islands at a distance of fourteen leagues towards the east.
  The pilot who had remained with us told us those were the <placeName>Maluco</placeName> islands, for which we gave thanks to God, and to comfort ourselves we discharged all our artillery.
  It need not cause wonder that we were so much rejoiced, since we had passed twenty-seven months less two days always in search of <placeName>Maluco</placeName>, wandering for that object among the immense number of islands.
- But I must say that near all these islands the least depth that we found was one hundred fathoms, for which reason attention is not to be given to all that the <nationality>Portuguese</nationality> have spread, according to whom the islands of <placeName>Maluco</placeName> are situated in seas which cannot be navigated on account of the shoals, and the dark and foggy atmosphere.</p>
+ But I must say that near all these islands the least depth that we found was one hundred fathoms, for which reason attention is not to be given to all that the <ethnicGroup>Portuguese</ethnicGroup> have spread, according to whom the islands of <placeName>Maluco</placeName> are situated in seas which cannot be navigated on account of the shoals, and the dark and foggy atmosphere.</p>
 
 <p n="143"><date when='11-8-1521'>Friday, the 8th November of 1521</date>, three hours before sunset, we entered a port of the island called <placeName>Tadore</placeName>, and having gone near the shore, we cast anchor in twenty fathoms, and discharged all our artillery.
  Next day the king came to the ships in a prahu, and went round them.
@@ -1255,7 +1256,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  The last is <placeName>Bachian</placeName>, and it has a king.
  All this province in which the cloves grow is called <placeName>Maluco</placeName>.</p>
 
-<p n="149">When we arrived here, eight months had not elapsed since a certain <nationality>Portuguese</nationality>, <persName>Francisco Serrano</persName>, had died in <placeName>Tarenate</placeName>.
+<p n="149">When we arrived here, eight months had not elapsed since a certain <ethnicGroup>Portuguese</ethnicGroup>, <persName>Francisco Serrano</persName>, had died in <placeName>Tarenate</placeName>.
  He was captain-general of the King of <placeName>Tarenate</placeName> when he was making war on the King of <placeName>Tadore</placeName>; and he acted so strenuously that this king was compelled to give his daughter in marriage to the King of <placeName>Tarenate</placeName>, who also received as hostages almost all the sons of the chief men of <placeName>Tadore</placeName>.
  Peace was then made, and from that daughter was born the nephew Calanopagi, of whom I have spoken.
  But the King of <placeName>Tadore</placeName> never forgave <persName>Serrano</persName> in his heart; and he having come several years later to <placeName>Tadore</placeName> to traffic in cloves, the king had him poisoned with some betel leaves, so that he survived hardly four days.
@@ -1274,8 +1275,8 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  But meantime Chechilideroix, seeing our hesitation, had some suspicion, and moved further off from the ships.
  We then went to him in a boat, and made him a present of an Indian cloth of gold and silk, with some looking-glasses, knives, scissors, etc.
 : these things he accepted but disdainfully, and soon after departed.
- He had with him an Indian who had become a Christian, named Manuel, the servant of a certain Pedro Alfonzo de Lorosa, a <nationality>Portuguese</nationality>, who, after the death of <persName>Serrano</persName>, had come from <placeName>Bandan</placeName> to <placeName>Tarenate</placeName>.
- Manuel being able to speak <nationality>Portuguese</nationality>, came on board the ships, and told us that although the sons of the King of <placeName>Tarenate</placeName> were enemies to the King of <placeName>Tadore</placeName>, yet they were disposed towards the service of <placeName>Spain</placeName>, Then, by means of him, we wrote to De Lorosa to come to our ships without any suspicion or fear.</p>
+ He had with him an Indian who had become a Christian, named Manuel, the servant of a certain Pedro Alfonzo de Lorosa, a <ethnicGroup>Portuguese</ethnicGroup>, who, after the death of <persName>Serrano</persName>, had come from <placeName>Bandan</placeName> to <placeName>Tarenate</placeName>.
+ Manuel being able to speak <ethnicGroup>Portuguese</ethnicGroup>, came on board the ships, and told us that although the sons of the King of <placeName>Tarenate</placeName> were enemies to the King of <placeName>Tadore</placeName>, yet they were disposed towards the service of <placeName>Spain</placeName>, Then, by means of him, we wrote to De Lorosa to come to our ships without any suspicion or fear.</p>
 
 <p n="153">These kings have as many ladies as they please, but one only is the principal wife, and all the others are subject to her.
  The King of <placeName>Tadore</placeName> had a large house outside the city, where there were two hundred of the ladies he was most fond of, and as many more to serve them.
@@ -1302,32 +1303,32 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  It may be seen from this how those lied who said that fresh water had to be brought to <placeName>Maluco</placeName> from distant countries.</p>
 
 <p n="156">The next day the king sent his son named Mossahap to the island of the Mutir for cloves with which to freight our ships.
- We had spoken to the king that day of some <ethnicGroup>Indians</ethnicGroup> whom we had captured, and he entreated us to make a present of them to him, as he had the intention of sending them back to their native country, accompanied by five men of <placeName>Tadore</placeName>, who, on restoring them to their country, would praise and commend the King of <placeName>Spain</placeName> and make a good name for the <nationality>Spaniards</nationality>.
+ We had spoken to the king that day of some <ethnicGroup>Indians</ethnicGroup> whom we had captured, and he entreated us to make a present of them to him, as he had the intention of sending them back to their native country, accompanied by five men of <placeName>Tadore</placeName>, who, on restoring them to their country, would praise and commend the King of <placeName>Spain</placeName> and make a good name for the <ethnicGroup>Spaniards</ethnicGroup>.
  We gave him the three ladies whom we had destined for the queen, as has been said above, and all the men except those of Burné: he very much appreciated this gift.</p>
 
 <p n="157">The king then asked another favour—that was, that we should kill all the pigs we had on board, for which he would give an ample compensation in fowls and goats.
  We gave him satisfaction in this, cutting their throats and hanging them up under the deck, so that the <ethnicGroup>Moors</ethnicGroup> should not have occasion to see them, since if by accident they see any pig they covered their faces not to see it or perceive its smell.</p>
 
-<p n="158">In the evening of the same day <persName>Pedro Alfonso</persName>, the <nationality>Portuguese</nationality>, came in a prahu, but before he came on board the ships the king sent to call him, and said to him, that although he belonged to <placeName>Tarenate</placeName> he should take good care not to answer falsely to the questions we were going to ask him.
- He indeed, after coming on board, told us that he had come to India sixteen years ago, and of these years he had passed ten in <placeName>Maluco</placeName>; and it was just ten years since those islands had been discovered by the <nationality>Portuguese</nationality>, who kept the discovery secret from us.
+<p n="158">In the evening of the same day <persName>Pedro Alfonso</persName>, the <ethnicGroup>Portuguese</ethnicGroup>, came in a prahu, but before he came on board the ships the king sent to call him, and said to him, that although he belonged to <placeName>Tarenate</placeName> he should take good care not to answer falsely to the questions we were going to ask him.
+ He indeed, after coming on board, told us that he had come to India sixteen years ago, and of these years he had passed ten in <placeName>Maluco</placeName>; and it was just ten years since those islands had been discovered by the <ethnicGroup>Portuguese</ethnicGroup>, who kept the discovery secret from us.
  He then related to us that a year, less fifteen days, had elapsed since a large ship had come hither proceeding from Malacca, and had gone away laden with cloves; but that on account of the bad weather, she had been obliged to remain some months at Bandam.
- He added that her captain was Tristan de Meneses, a <nationality>Portuguese</nationality>, from whom, on asking what news there was in Europe, he had heard that a squadron of live ships had sailed from <placeName><placeName decLat='37.3891' decLon='-5.9845'>Seville</placeName></placeName> to discover <placeName>Maluco</placeName> in the name of the King of <placeName>Spain</placeName>, and that the captain of this squadron was Ferdinand <persName>Magellan</persName>, a <nationality>Portuguese</nationality>, for which reason the King of Portugal, being angry that a subject of his should attempt to do a thing so opposed to him, had sent some ships to the cape of Good Hope, and others to the Cape St.a.
+ He added that her captain was Tristan de Meneses, a <ethnicGroup>Portuguese</ethnicGroup>, from whom, on asking what news there was in Europe, he had heard that a squadron of live ships had sailed from <placeName>Seville</placeName> to discover <placeName>Maluco</placeName> in the name of the King of <placeName>Spain</placeName>, and that the captain of this squadron was Ferdinand <persName>Magellan</persName>, a <ethnicGroup>Portuguese</ethnicGroup>, for which reason the King of Portugal, being angry that a subject of his should attempt to do a thing so opposed to him, had sent some ships to the cape of Good Hope, and others to the Cape St.a.
  Maria, where the cannibals are, to impede their passage, but they had not fallen in with them.
  Having learned later that <persName>Magellan</persName> had passed by another sea, and was making for <placeName>Maluco</placeName> by way of the west, he had written to his Captain-Major of the Indies, named Diogo Lopez de Sequeira, to send six ships to <placeName>Maluco</placeName> against the Spanish squadron.
  But the captain-major, having at that time received information that the Grand Turk was planning an expedition against Malacca, was obliged to send against him sixty sail to the St.raits of Mekkah, in the country of Jiddah, where, however, they only found a few galleys which had grounded near the beautiful and strong city of Aden, and they set fire to them.</p>
 
-<p n="159">This enterprise, added De Lorosa, had prevented the captain-major from immediately sending an expedition against <persName>Magellan</persName>; but a little later he had sent to <placeName>Maluco</placeName> a great galleon with two rows of cannon, commanded by Francisco Faria, a <nationality>Portuguese</nationality>: but neither did this one come, for on account of the shoals and currents which are near Malacca, and the contrary winds, it was unable to pass that promontory, and was compelled to turn back.</p>
+<p n="159">This enterprise, added De Lorosa, had prevented the captain-major from immediately sending an expedition against <persName>Magellan</persName>; but a little later he had sent to <placeName>Maluco</placeName> a great galleon with two rows of cannon, commanded by Francisco Faria, a <ethnicGroup>Portuguese</ethnicGroup>: but neither did this one come, for on account of the shoals and currents which are near Malacca, and the contrary winds, it was unable to pass that promontory, and was compelled to turn back.</p>
 
 <p n="160">He also related that a few days before a caravel with two junks had come to these parts to get news of us.
- The junks had sailed to <placeName>Bachian</placeName> to load cloves, with seven <nationality>Portuguese</nationality> on board.
+ The junks had sailed to <placeName>Bachian</placeName> to load cloves, with seven <ethnicGroup>Portuguese</ethnicGroup> on board.
  These men, who did not respect the wives of the inhabitants, nor even those of the king, notwithstanding the warning they had received from the king himself, were all killed.
  The men of the caravel, on hearing of this, returned in haste to Malacca, abandoning the junks with four hundred bahars of cloves and as much merchandise as would have purchased another hundred bahars.
  He also related that every year many junks go from Malacca to <placeName>Bandan</placeName> to buy mace and nutmeg, and go thence to <placeName>Maluco</placeName> to purchase cloves.
  They make the voyage from <placeName>Bandan</placeName> to <placeName>Maluco</placeName> in three days, and employ fifteen in the voyage from <placeName>Bandan</placeName> to Malacca.
- He said, lastly, that since ten years back the King of Portugal had derived great profit from these islands, and he took especial care to keep these countries concealed from and unknown to the <nationality>Spaniards</nationality>.
+ He said, lastly, that since ten years back the King of Portugal had derived great profit from these islands, and he took especial care to keep these countries concealed from and unknown to the <ethnicGroup>Spaniards</ethnicGroup>.
  He related many other similar things, passing several hours in conversation with us: and we said and did so much, offering him a large salary, that we made him determine on coming with us to <placeName>Spain</placeName>.</p>
 
-<p n="161"><date when='11-15-1521'>Friday, the 15th of November</date>, the king told us that he thought of going himself to <placeName>Bachian</placeName> to get the cloves which the <nationality>Portuguese</nationality> had left there, and asked us for presents to give to the two governors of Mutir in the name of the King of <placeName>Spain</placeName>.
+<p n="161"><date when='11-15-1521'>Friday, the 15th of November</date>, the king told us that he thought of going himself to <placeName>Bachian</placeName> to get the cloves which the <ethnicGroup>Portuguese</ethnicGroup> had left there, and asked us for presents to give to the two governors of Mutir in the name of the King of <placeName>Spain</placeName>.
  Meanwhile, having come close to our ships, he wished to see how we shot with the cross-bow, with guns, and with a swivel gun, which is a weapon larger than an arquebuse.
  He himself fired three times with a cross-bow, but he did not care to fire with a gun.</p>
 
@@ -1402,18 +1403,18 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
 
 <p n="175">He afterwards added that it was the custom in <placeName>Tadore</placeName>, when the first cloves were embarked in a vessel, or in junks, that the king gave a feast to their crews and merchants, and they made prayers to God to bring them in safety to their port.
  He wished to do the same for us, and at the same time the feast would serve for the King of <placeName>Bachian</placeName>, who was coming with a brother of his to pay him a visit, and on that account he had the streets cleaned.
- Hearing this, some of us began to suspect some treachery; all the more because we learned that, not long before, three <nationality>Portuguese</nationality> of the companions of Francisco Serrano had been assassinated at the place where we got water, by some of the islanders concealed in the thickets; also we often saw them whispering with the <ethnicGroup>Indians</ethnicGroup> whom we had made prisoners.
+ Hearing this, some of us began to suspect some treachery; all the more because we learned that, not long before, three <ethnicGroup>Portuguese</ethnicGroup> of the companions of Francisco Serrano had been assassinated at the place where we got water, by some of the islanders concealed in the thickets; also we often saw them whispering with the <ethnicGroup>Indians</ethnicGroup> whom we had made prisoners.
  Therefore, although some of us were inclined to accept the invitation, we concluded not to betake ourselves thither, recollecting the unfortunate feast given to our men in the island of <placeName>Zubu</placeName>, and we decided on a speedy departure.</p>
 
 <p n="176">Meantime a message was sent to the king to thank him, and to ask him to come soon to the ships, where we would deliver to him the four men we had promised him, with the goods which we had destined for him.
  The King came soon, and on entering the ship, as though he had observed that we had doubts, said that he entered with as much confidence and security as into his own house.
  He made us feel how much he was displeased by our unexpected haste to depart, since ships used to employ thirty days in taking in their cargo; and that if he had made a journey out of the island, he certainly had not done it to injure us but to assist us, so that we might more speedily obtain the cloves which we required, and a part of which we were still expecting.
- He added that it was not then a fit season for navigating in those seas, on account of the many shoals near <placeName>Bandan</placeName>, and besides it would be a likely thing that we should fall in with some <nationality>Portuguese</nationality> ships.
- When, in spite of what he had said, he saw we were still determined on going away, he said that we must take back all that we had given him, since the Kings, his neighbours, would consider him as a man without reputation for receiving so many presents in the name of so great a king as the King of <placeName>Spain</placeName>, and he had given nothing in return, and perhaps they would suspect that the <nationality>Spaniards</nationality> had gone away in such haste for fear of some treachery, so that they would fix upon him the name of traitor.
+ He added that it was not then a fit season for navigating in those seas, on account of the many shoals near <placeName>Bandan</placeName>, and besides it would be a likely thing that we should fall in with some <ethnicGroup>Portuguese</ethnicGroup> ships.
+ When, in spite of what he had said, he saw we were still determined on going away, he said that we must take back all that we had given him, since the Kings, his neighbours, would consider him as a man without reputation for receiving so many presents in the name of so great a king as the King of <placeName>Spain</placeName>, and he had given nothing in return, and perhaps they would suspect that the <ethnicGroup>Spaniards</ethnicGroup> had gone away in such haste for fear of some treachery, so that they would fix upon him the name of traitor.
  Then, in order that no suspicion might remain in our minds of his honesty and good faith, he ordered his Koran to be brought, and kissing it devoutly he placed it four or five times on his head whilst whispering certain words to himself, with a rite which they call Zambehan, and he said in the presence of us all, that he swore by Allah and by the Koran, which he held in his hand, that he would ever be faithful and a friend to the King of <placeName>Spain</placeName>.
  He said all this almost weeping and with so great an appearance of sincerity and cordiality, that we promised to prolong our sojourn at <placeName>Tadore</placeName> for another fortnight.
  We then gave him the Royal signature and standard.
- We learned later, by a sure and certain channel, that some of the chiefs of those islands had indeed counselled him to kill all of us, by which thing he would have acquired for himself great merit with the <nationality>Portuguese</nationality>, who would have given him good assistance to avenge himself on the King of <placeName>Bachian</placeName>, but he, loyal and constant to the King of <placeName>Spain</placeName>, with whom he had sworn a peace, had answered that he would never do such an act on any account whatever.</p>
+ We learned later, by a sure and certain channel, that some of the chiefs of those islands had indeed counselled him to kill all of us, by which thing he would have acquired for himself great merit with the <ethnicGroup>Portuguese</ethnicGroup>, who would have given him good assistance to avenge himself on the King of <placeName>Bachian</placeName>, but he, loyal and constant to the King of <placeName>Spain</placeName>, with whom he had sworn a peace, had answered that he would never do such an act on any account whatever.</p>
 
 <p n="177"><date when='11-27-1521'>Wednesday, the 27th November</date>, the king issued a proclamation that whoever had cloves might freely sell them to us.
  For which reason all that and the following day, we bought cloves like mad.</p>
@@ -1432,7 +1433,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
 <p n="181"><date when='12-2-1521'>Thursday and Friday</date> we purchased a good many cloves both in the city and at the ships at a much lower price, as the time of our departure grew nearer.
  For four ells of riband they gave a bahar of cloves, for two little chains of brass which were worth a marcello, they gave us a hundred pounds; and at last each man being desirous of having his portion of the cargo, and as there were no more goods to give in exchange for cloves, one gave his cloak, another his coat, and another a shirt or other clothes to obtain them.</p>
 
-<p n="182">On Saturday three sons of the King of <placeName>Tarenate</placeName>, with their wives, who were daughters of our King of <placeName>Tadore</placeName>, and afterwards <persName>Pedro Alfonso</persName>, the <nationality>Portuguese</nationality>, came to the ships.
+<p n="182">On Saturday three sons of the King of <placeName>Tarenate</placeName>, with their wives, who were daughters of our King of <placeName>Tadore</placeName>, and afterwards <persName>Pedro Alfonso</persName>, the <ethnicGroup>Portuguese</ethnicGroup>, came to the ships.
  We gave a gilt glass goblet to each of the brothers, and to the three wives scissors and other things; and when they went away we fired several bombards in their honour.
  We afterwards sent on shore a present of several things to the widow of the King of <placeName>Tarenate</placeName>, daughter of the King <placeName>Tadore</placeName>, who had not ventured to come on board the ships.</p>
 
@@ -1448,7 +1449,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
 <p n="185">During this time <persName>Pedro Alfonso</persName> de Lorosa had come to the ships with his wife and property to return with us.
  Two days after, <persName>Kechilideroix</persName>, son of the King of <placeName>Tarenate</placeName>, came with a prahu well filled with men, and approaching the ships requested Lorosa to come into his prahu; but Lorosa, who suspected him, refused to do so, and told him he had determined on going away with those ships to <placeName>Spain</placeName>.
  For the same suspicion he advised us not to receive him in the ships; and we did not choose that he should come on board when he asked to do so.
- It was known later that Kechili was a great friend of the <nationality>Portuguese</nationality> captain of Malacca, and had the intention of seizing Lorosa and of conducting him thither; and on that account he severely reprimanded those persons with whom this <nationality>Portuguese</nationality> lived, for having let him depart without his permission.</p>
+ It was known later that Kechili was a great friend of the <ethnicGroup>Portuguese</ethnicGroup> captain of Malacca, and had the intention of seizing Lorosa and of conducting him thither; and on that account he severely reprimanded those persons with whom this <ethnicGroup>Portuguese</ethnicGroup> lived, for having let him depart without his permission.</p>
 
 <p n="186">The king had informed us that the King of <placeName>Bachian</placeName> would soon arrive, with a brother of his who was going to marry one of his daughters, and had asked us to do him honour by firing bombards on his arrival.
  He arrived on Sunday the 15th of December, in the afternoon, and we did him honour as the king had desired; we did not, however, discharge the heavier cannon, as we were heavily laden.
@@ -1477,7 +1478,7 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  We took on board each ship eighty barrels of water.
  Wood we were to find at the island of Mare, where the king had already five days ago sent a hundred men to prepare it, and near which we were to pass.</p>
 
-<p n="191">This day, the King of <placeName>Bachian</placeName>, with the consent of the King of <placeName>Tadore</placeName>, came on shore, preceded by four men holding up daggers in their hands, to make alliance with us: he said, in the presence of the King of <placeName>Tadore</placeName> and of all his suite, that he would always be ready for the service of the King of <placeName>Spain</placeName>, that he would keep in his name the cloves left in his island by the <nationality>Portuguese</nationality>, until another Spanish squadron arrived there, and he would not give them up without his consent.
+<p n="191">This day, the King of <placeName>Bachian</placeName>, with the consent of the King of <placeName>Tadore</placeName>, came on shore, preceded by four men holding up daggers in their hands, to make alliance with us: he said, in the presence of the King of <placeName>Tadore</placeName> and of all his suite, that he would always be ready for the service of the King of <placeName>Spain</placeName>, that he would keep in his name the cloves left in his island by the <ethnicGroup>Portuguese</ethnicGroup>, until another Spanish squadron arrived there, and he would not give them up without his consent.
  He sent through us to the King of <placeName>Spain</placeName> a present of a slave and two bahars of cloves.
  He would have wished to have sent ten bahars, but our ships were so heavily laden, that we could not receive any more.</p>
 
@@ -1536,19 +1537,19 @@ the sun, rain, and wind, and we left them for four or five days in the sea, and 
  There are still some families of them who have taken refuge in the mountains, where the cloves grow.
  </p>
 
-<p n="203">The island of <placeName>Tadore</placeName> is in <geo select="lat" deg='0' min='27' direction='N'>0 deg.27 min. North latitude</geo>, and <geo select="lon" deg='161' direction='W'>161 deg.west</geo> of the line of demarcation; it is <geo select="lat" deg='9' min='30'>9 deg.30 min</geo>.
+<p n="203">The island of <placeName>Tadore</placeName> is in <geo lat='0' min='27' direction='N'>0 deg.27 min. North latitude</geo>, and <geo lon='161' direction='W'>161 deg.west</geo> of the line of demarcation; it is <geo lat='9' min='30'>9 deg.30 min</geo>.
  distant from the first island of this archipelago, named <placeName>Zamal</placeName>, to the south-east and a quarter south.
- The island of <placeName>Tarenate</placeName> is in <geo select="lat" deg='0' min='40' direction='N'>0 deg. 40 min. of N. latitude</geo>.Mutir is exactly under the equinoctial line.Machian is in <geo select="lat" deg='0' min='15' direction='S'>0 deg.15 min.S.latitude</geo>, and <placeName>Bachian</placeName> in <geo select="lat" deg='1' direction='S'>1 deg.of the same latitude</geo>.
- <placeName>Tarenate</placeName>, <placeName>Tadore</placeName>, Mutir, and Machian, are like four high and pointed mountains, upon which the clove trees grow.
+ The island of <placeName>Tarenate</placeName> is in <geo lat='0' min='40' direction='N'>0 deg. 40 min. of N. latitude</geo>.Mutir is exactly under the equinoctial line.Machian is in <geo lat='0' min='15' direction='S'>0 deg.15 min.S.latitude</geo>, and <placeName>Bachian</placeName> in <geo lat='1' direction='S'>1 deg.of the same latitude</geo>.
+ <placeName>Tarenate</placeName>, <placeName>Tadore</placeName>, <placeName>Mutir</placeName>, and <placeName>Machian</placeName>, are like four high and pointed mountains, upon which the clove trees grow.
  <placeName>Bachian</placeName> is not visible from these four islands, but it is a larger island than any of those.
  Its clove mountain is not so high nor so pointed as those of the other islands, but it has a larger base.</p></book>
 
-<book>(Book IV of the Milan Edition.)</book>
+<book>(Book IV of the Milan Edition.)
 
-<title>Return from the Moluccas to <placeName>Spain</placeName> </title>
-<bookContents>
+Return from the Moluccas to <placeName>Spain</placeName> 
+
 <p n="204">Pursuing our voyage, after having taken in wood at the islet of Mare, we passed between the following islands:—<placeName>Caioan</placeName>,<placeName> Laigoma</placeName>, <placeName>Sico</placeName>, <placeName>Giogi</placeName>, <placeName>Cafi</placeName>, <placeName>Laboan Toliman</placeName>, <placeName>Titameti</placeName>, <placeName>Bachian</placeName>, <placeName>Latalata</placeName>, <placeName>Jabobi</placeName>, <placeName>Mata</placeName>, and <placeName>Batutiga</placeName>.
- They told us that in the island of Cafi the people were small and dwarfed like the Pigmies; they have been subjected by force by the King of <placeName>Tadore</placeName>.
+ They told us that in the island of <placeName>Cafi</placeName> the people were small and dwarfed like the Pigmies; they have been subjected by force by the King of <placeName>Tadore</placeName>.
  We passed outside of Batutiga to the west, and we steered between west and south-west, and we discovered some islets to the south, on which account the pilots of <placeName>Maluco</placeName> said it would be better to cast anchor so as not to drift at night among many islets and shoals.
  We, therefore, altered our course to south-east, and went to an island situated in 2 deg.S.latitude, and fifty-three leagues from <placeName>Maluco</placeName>.</p>
 
@@ -1563,13 +1564,13 @@ The chiacare are fruit like water-melons, but knotty on the outside; inside they
  We found here another fruit which externally is like a pine cone, and it is yellow, but white inside; on cutting, it is something like a pear, but much softer and better tasted.
  Here it is called comilicai.
  The inhabitants of this island are <ethnicGroup>Gentiles</ethnicGroup>, and have no king: they go naked like those of <placeName>Sulach</placeName>.
- The island of <placeName>Buru</placeName> is in<geo select="lat" deg='3' min='30'> 3 deg. 30 min. S.</geo>
+ The island of <placeName>Buru</placeName> is in<geo lat='3' min='30'> 3 deg. 30 min. S.</geo>
  latitude, and seventy-five leagues from <placeName>Maluco</placeName>.</p>
 
-<p n="207">To the east of this island, at a distance of ten leagues, there is another one larger, and which borders on <placeName>Giailolo</placeName>, and it is named Ambon.
+<p n="207">To the east of this island, at a distance of ten leagues, there is another one larger, and which borders on <placeName>Giailolo</placeName>, and it is named<placeName>Ambon</placeName>.
  It is inhabited by <ethnicGroup>Moors</ethnicGroup> and <ethnicGroup>Gentiles</ethnicGroup>, but the former are on the sea shore, and the others in the interior; these are also anthropophagi.
  The products of this island are the same as those of <placeName>Buru</placeName>.
- Between <placeName>Buru</placeName> and Ambon, there are three islands surrounded by reefs named <placeName>Vudia</placeName>, <placeName>Kailaruru</placeName> and <placeName>Benaia.</placeName>
+ Between <placeName>Buru</placeName> and <placeName>Ambon</placeName>, there are three islands surrounded by reefs named <placeName>Vudia</placeName>, <placeName>Kailaruru</placeName> and <placeName>Benaia.</placeName>
  To the south of <placeName>Buru</placeName>, at a distance of four leagues, is another small island named Ambalao.</p>
 
 <p n="208">At thirty-five leagues from <placeName>Buru</placeName>, south and a quarter south-west, is <placeName>Bandan</placeName>, with thirteen other islands.
@@ -1577,11 +1578,11 @@ The chiacare are fruit like water-melons, but knotty on the outside; inside they
  <placeName>Zoroboa</placeName> is the largest of them, <placeName>Chelicel</placeName>, <placeName>Saniananpi</placeName>, <placeName>Pulai</placeName>, <placeName>Puluru</placeName>, and <placeName>Rasoghin</placeName>, the other six are Unuveru, Pulanbaracan, Lailaca, Mamica, Man, and Meut.
  In these islands nutmegs are not found, but only sagu, rice, cocoanuts, bananas, and other fruits, and they are near one another.
  The inhabitants of these are <ethnicGroup>Moors</ethnicGroup>, and have no king.
- <placeName>Bandan</placeName> is in <geo select="lat" deg='6' direction='S'>6 deg.of S.latitude</geo>, and <geo select="lon" deg='163' min='30'>163 deg.30 min.longitude</geo> from the line of demarcation.
+ <placeName>Bandan</placeName> is in <geo lat='6' direction='S'>6 deg.of S.latitude</geo>, and <geo lon='163' min='30'>163 deg.30 min.longitude</geo> from the line of demarcation.
  As this island was a little out of our course, we did not go to it.</p>
 
 
-<p n="209">Leaving the island of <placeName>Buru</placeName> in the direction south-west and a quarter west, about <geo select="lat" deg='8'>eight degrees of latitude</geo>,we arrived at three other islands near each other named Zolot, Nocemamor, and Galian.
+<p n="209">Leaving the island of <placeName>Buru</placeName> in the direction south-west and a quarter west, about <geo lat='8'>eight degrees of latitude</geo>,we arrived at three other islands near each other named <placeName>Zolo</placeName>t, Nocemamor, and Galian.
  Whilst we sailed amidst these islands, a great storm fell upon us, for which we made a vow of a pilgrimage to our Lady della Guida.
  We put the ship before the storm and made for a rather high island, which afterwards we learned was named <placeName>Mallua</placeName>, but before we could reach it, we had to struggle much with the squalls of wind which descended from the mountains and with the currents.
  The inhabitants of this island are savages, and more beasts than men; they eat human flesh; they go naked, except the usual piece of bark to cover their natural parts.
@@ -1603,14 +1604,14 @@ The chiacare are fruit like water-melons, but knotty on the outside; inside they
 
 <p n="212">Here we took a man to conduct us to some island where we could find plenty of victuals.</p>
 
-<p n="213">The island of <placeName>Mallua</placeName> is in <geo select="lat" deg='8' min='30' direction='S'>8 deg. 30 min.S.latitude</geo>, and <geo select="lon" deg='169' min='40'>169 deg.40 min.longitude</geo> from the line of demarcation.</p>
+<p n="213">The island of <placeName>Mallua</placeName> is in <geo lat='8' min='30' direction='S'>8 deg. 30 min.S.latitude</geo>, and <geo lon='169' min='40'>169 deg.40 min.longitude</geo> from the line of demarcation.</p>
 
 <p n="214">The old pilot from <placeName>Maluco</placeName> related to us, whilst sailing, that in this neighbourhood there was an island named Aruchete, the inhabitants of which, men and women, are not more than one cubit high, and they have ears as large and as long as themselves, so that when they lie down one serves them for a mattress, and with the other they cover themselves.
  They are shorn and naked, their voices are shrill, and they run very swiftly.
  They dwell under ground, live on fish and a certain substance which grows between the bark and the wood of a tree, which is white and round like coriander comfits, and which is named ambulon.
  We would have gone there willingly, but the shoals and currents did not allow of it.</p>
 
-<p n="215"><date when='1-25-1522'>Saturday the 25th of January, (1522)</date>, at 22 o'clock, we left the island of <placeName><placeName>Mallua</placeName>;</placeName> and the following day, having run five leagues to the south-south-east, we arrived at a large island called <placeName>Timor</placeName>.
+<p n="215"><date when='1-25-1522'>Saturday the 25th of January, (1522)</date>, at 22 o'clock, we left the island of <placeName>Mallua;</placeName> and the following day, having run five leagues to the south-south-east, we arrived at a large island called <placeName>Timor</placeName>.
  I went ashore alone to speak to the head man of a village named Amaban, about his providing us with victuals.
  He offered me buffaloes, pigs, and goats, but when it was a question of the goods which he wanted in exchange, we could not come to an agreement, because he asked a great deal, and we had got very little to give.
  Then as we were constrained by hunger, we took the measure of detaining on board the ship the chief of another village named Balibo, who had come there in good faith with a son of his; and we imposed upon him as a ransom for recovering his liberty, to give six buffaloes, ten pigs, and ten goats.
@@ -1636,21 +1637,21 @@ The chiacare are fruit like water-melons, but knotty on the outside; inside they
 
 <p n="220">This island is entirely inhabited.
  It extends a long way from east to west, and little from north to south.
- Its <geo select="lat" deg='10' direction='S'>south latitude is in 10 deg.</geo>, and the <geo select="lon" deg='174' min='30'>longitude 174 deg.30 min</geo>. from the line of demarcation.</p>
+ Its <geo lat='10' direction='S'>south latitude is in 10 deg.</geo>, and the <geo lon='174' min='30'>longitude 174 deg.30 min</geo>. from the line of demarcation.</p>
 
-<p n="221">In all these islands that we visited in this archipelago, the evil of Saint Job prevailed, and more here than in any other place, where they call it "for franki", that is to say, <nationality>Portuguese</nationality> illness.</p>
+<p n="221">In all these islands that we visited in this archipelago, the evil of Saint Job prevailed, and more here than in any other place, where they call it "for franki", that is to say, <ethnicGroup>Portuguese</ethnicGroup> illness.</p>
 
 <p n="222">We were told that at a day's voyage, west-north-west from <placeName>Timor</placeName>, there was an island in which much cinnamon grows, called Ende; its inhabitants are <ethnicGroup>Gentiles</ethnicGroup>, and have no king.
- Near this are many others forming a series of islands as far as <placeName><placeName>Java</placeName> Major</placeName>, and the <placeName>Cape of Malacca</placeName>.
- The names of these islands are Ende, Tanabuton, Crenochile, Bimacore, Azanaran, Main, Zubava, Lombok, Chorum, and <placeName><placeName>Java</placeName> Major</placeName>, which by the inhabitants is not called <placeName>Java</placeName> but Jaoa.</p>
+ Near this are many others forming a series of islands as far as <placeName>Java Major</placeName>, and the <placeName>Cape of Malacca</placeName>.
+ The names of these islands are Ende, Tanabuton, Crenochile, Bimacore, Azanaran, Main, Zubava, Lombok, Chorum, and <placeName>Java Major</placeName>, which by the inhabitants is not called <placeName>Java</placeName> but Jaoa.</p>
 
 
 <p n="223">In this island of <placeName>Java</placeName> are the largest towns; the principal of them is Magepaher  the king of which, when he lived, was the greatest of all the kings of the neighbouring islands, and he was named Raja Patiunus Sunda.
  Much pepper grows there.
  The other towns are—Dahadama, Gagiamada, Minutarangam, Ciparafidain, Tuban, Cressi, and Cirubaya.
- At half a league from <placeName><placeName>Java</placeName> Major</placeName> are the islands of Bali, called <placeName>Java</placeName> Minor, and Madura, these are of equal size.</p>
+ At half a league from <placeName>Java Major</placeName> are the islands of <placeName>Bali</placeName>, called <placeName>Java</placeName> Minor, and <placeName>Madura</placeName>, these are of equal size.</p>
 
-<p n="224">They told us that in <placeName><placeName>Java</placeName> Major</placeName>, it was the custom when one of the chief men died, to burn his body; and then his principal wife, adorned with garlands of flowers, has herself carried in a chair by four men throughout the town, with a tranquil and smiling countenance, whilst comforting her relations, who are afflicted because she is going to burn herself with the corpse of her husband, and encouraging them not to lament, saying to them, "I am going this evening to sup with my dear husband, and to sleep with him this night.
+<p n="224">They told us that in <placeName>Java Major</placeName>, it was the custom when one of the chief men died, to burn his body; and then his principal wife, adorned with garlands of flowers, has herself carried in a chair by four men throughout the town, with a tranquil and smiling countenance, whilst comforting her relations, who are afflicted because she is going to burn herself with the corpse of her husband, and encouraging them not to lament, saying to them, "I am going this evening to sup with my dear husband, and to sleep with him this night.
 " Afterwards, when close to the place of the pyre, she again turns towards the relations, and after again consoling them, casts herself into the fire and is burned.
  If she did not do this she would not be looked upon as an honourable woman, nor as a faithful wife.</p>
 
@@ -1658,7 +1659,7 @@ The chiacare are fruit like water-melons, but knotty on the outside; inside they
  He told us that the young men of <placeName>Java</placeName>.
 and that in an island called Ocoloro, below <placeName>Java Major</placeName>, there are only women who become pregnant with the wind, and when they bring it forth, if the child is a male, they kill it, and if a female, they bring it up; and if any man visits their island, whenever they are able to kill him, they do so.</p>
 
-<p n="226">They also related to us that beyond <placeName><placeName>Java</placeName> Major</placeName>, towards the north in the Gulf of <placeName>China</placeName>, which the ancients named Sinus Magnus, there is an enormous tree named Campanganghi, in which dwell certain birds named Garuda, so large that they take with their claws, and carry away flying, a buffalo, and even an elephant, to the place of the tree, which place is named Puzathaer.
+<p n="226">They also related to us that beyond <placeName>Java Major</placeName>, towards the north in the Gulf of <placeName>China</placeName>, which the ancients named Sinus Magnus, there is an enormous tree named Campanganghi, in which dwell certain birds named Garuda, so large that they take with their claws, and carry away flying, a buffalo, and even an elephant, to the place of the tree, which place is named Puzathaer.
  The fruit of this tree is called Buapanganghi, and is larger than a water melon.
  The <ethnicGroup>Moors</ethnicGroup> of Burné, whom we had with us in the ships, told as they had seen two of these birds, which had been sent to their king from the kingdom of <placeName>Siam</placeName>.
  No junk, or other vessel, can approach this tree within three or four leagues, on account of the great whirlpools which the water makes there.
@@ -1668,7 +1669,7 @@ and that in an island called Ocoloro, below <placeName>Java Major</placeName>, t
 
 <p n="227">We were told that there were in that kingdom, on the banks of the rivers, certain birds which feed on carrion, but which will not touch it unless another bird has first eaten its heart. </p>
 
-<p n="228">The <placeName>Cape of Malacca</placeName> is in <geo select="lat" deg='1' min='30' direction='S'>1 deg.30 min.of S.latitude</geo>.
+<p n="228">The <placeName>Cape of Malacca</placeName> is in <geo lat='1' min='30' direction='S'>1 deg.30 min.of S.latitude</geo>.
  To the east of that Cape are many cities and towns, of a few of which I will note the names—Singapola, which is at the Cape, Pahan, Kalantan, Patani, Bradlini, Benan, Lagon, Cheregigharan, Trombon, Joran, Ciu, Brabri, Banga, Iudia, Jandibum, Laun, Langonpifa.
  All these cities are constructed like ours, and are subject to the King of <placeName>Siam</placeName> who is named Siri Zacabedera, and who inhabits Iudia.</p>
 
@@ -1678,10 +1679,10 @@ and that in an island called Ocoloro, below <placeName>Java Major</placeName>, t
  This is the rotten wood of a large tree, which acquires its odour by putrefaction.
  The best part of the tree is the root, but the trunk is also good, which is called Calama.</p>
 
-<p n="230">The kingdom of <placeName>Cocchi</placeName> lies next, its sovereign is named Raja Seri Bummipala.
+<p n="230">The kingdom of <placeName>Cocchi</placeName> lies next, its sovereign is named <persName>Raja Seri Bummipala</persName>.
  After that follows Great <placeName>China</placeName>, the king of which is the greatest sovereign of the world, and is called Santoa raja.
  He has seventy crowned kings under his dependence; and some of these kings have ten or fifteen lesser kings dependent on them.
- The port of this kingdom is named Guantan, and among the many cities of this empire, two are the most important, namely Nankin and Comlaha, where the king usually resides.</p>
+ The port of this kingdom is named <placeName>Guantan</placeName>, and among the many cities of this empire, two are the most important, namely<placeName> Nankin</placeName> and <placeName>Comlaha</placeName>, where the king usually resides.</p>
 
 <p n="231">He has four of his principal ministers close to his palace, at the four sides looking to the four cardinal winds, that is, one to the west, one to the east, to the south, and to the north.
  Each of these gives audience to those that come from his quarter.
@@ -1717,16 +1718,16 @@ and that in an island called Ocoloro, below <placeName>Java Major</placeName>, t
  The Lecchii inhabit the mainland: the entrance to their port is traversed by a large rock, for which reason all the junks and vessels which wish to enter must take down their masts.
  The king of this country is called Moni.
  He has on the mainland twenty kings under him, and he is subject to the King of <placeName>China</placeName>: his capital is Baranaci, and here is situated Oriental Cathay.
- Han is a high and cold island, where there is copper, silver, pearls, and silk; its king is named Raja Zotra.
+ Han is a high and cold island, where there is copper, silver, pearls, and silk; its king is named <persName>Raja Zotra</persName>.
  There is also Miliaula, the king of which is named Raja Quetischeniga, and Guio, the king of which is Raja Sudacali.
  These places are cold and on the mainland.
- Friagonba and Trianga are two islands which also produce copper, silver, pearls, and silk; their king is Raja Ruzon.
+ Friagonba and Trianga are two islands which also produce copper, silver, pearls, and silk; their king is <persName>Raja Ruzon</persName>.
  Bassi is a low land on the continent.
  There come afterwards <placeName>Sumbdit</placeName> and <placeName>Pradit</placeName>, two islands very rich in gold, where the men wear a large ring of gold round the ancle.
  In the neighbouring mountains dwell people who kill their parents when they are old, so that they may cease from travail.
  All the people of these countries are <ethnicGroup>Gentiles</ethnicGroup>.</p>
 
-<p n="239">Tuesday night (between it and Wednesday,) on the <date when='2-11-15'>11th of February of 1522</date>, we left the island of <placeName>Timor</placeName>, and entered upon the great sea named Laut Chidol  and taking a west-south-west course, we left to the right and to the North, from fear of the <nationality>Portuguese</nationality>, the island of Zumatra, anciently named Taprobana; also Pegu, Bengala, Urizza, Chelim, where are the Malabars, subjects of the King of Narsinga: Calicut which is under the same king; Cambaya in which are the Guzeratis; Cananor, Goa, Armus, and all the other coast of India major.</p>
+<p n="239">Tuesday night (between it and Wednesday,) on the <date when='2-11-15'>11th of February of 1522</date>, we left the island of <placeName>Timor</placeName>, and entered upon the great sea named <placeName>Laut Chidol</placeName>  and taking a west-south-west course, we left to the right and to the North, from fear of the <ethnicGroup>Portuguese</ethnicGroup>, the island of <placeName>Zumatra</placeName>, anciently named <placeName>Taprobana</placeName>; also <placeName>Pegu</placeName>, <placeName>Bengala</placeName>, <placeName>Urizza</placeName>, <placeName>Chelim</placeName>, where are the Malabars, subjects of the King of Narsinga: Calicut which is under the same king; Cambaya in which are the Guzeratis; Cananor, Goa, Armus, and all the other coast of India major.</p>
 
 <p n="240">In this kingdom dwell six classes of persons, that is to say: Nairs, Panicals, Franas, Pangelins, Macuas, and Poleas.
  The Nairs are the chiefs; the Panicals are the townspeople; these two classes live and converse together.
@@ -1735,10 +1736,10 @@ and that in an island called Ocoloro, below <placeName>Java Major</placeName>, t
  When they go along the roads they always cry out, po, po, po, that is take care of yourself; and we were told that a Nair who had been accidentally touched by a Polea, not to survive such a disgrace, had himself killed.
  </p>
 
-<p n="241">In order to double the <placeName><placeName decLon='18.4740'>Cape of Good Hope</placeName></placeName>, we went as far as <geo select='lat' deg='42' direction='S'>42° South latitude</geo>, and we remained off that cape for nine weeks, with the sails struck on account of the Western and North-western gales which beat against our bows with fierce squalls.
- The <placeName><placeName decLon='18.4740'>Cape of Good Hope</placeName></placeName> is in<geo select='lat' deg='34' min='30' direction='S'> 34° 30' South latitude</geo>, 1600 leagues distant from the <placeName>Cape of Malacca</placeName>, and it is the largest and most dangerous cape in the world.</p>
+<p n="241">In order to double the <placeName>Cape of Good Hope</placeName>, we went as far as <geo lat='42' direction='S'>42° South latitude</geo>, and we remained off that cape for nine weeks, with the sails struck on account of the Western and North-western gales which beat against our bows with fierce squalls.
+ The <placeName>Cape of Good Hope</placeName> is in<geo lat='34' min='30' direction='S'> 34° 30' South latitude</geo>, 1600 leagues distant from the <placeName>Cape of Malacca</placeName>, and it is the largest and most dangerous cape in the world.</p>
 
-<p n="242">Some of our men, and among them the sick, would have liked to land at a place belonging to the <nationality>Portuguese</nationality> called Mozambique, both because the ship made much water, and because of the great cold which we suffered; and much more because we had nothing but rice and water for food and drink, all the meat of which we had made provision having putrified, for the want of salt had not permitted us to salt it.
+<p n="242">Some of our men, and among them the sick, would have liked to land at a place belonging to the <ethnicGroup>Portuguese</ethnicGroup> called Mozambique, both because the ship made much water, and because of the great cold which we suffered; and much more because we had nothing but rice and water for food and drink, all the meat of which we had made provision having putrified, for the want of salt had not permitted us to salt it.
  But the greater number of us, prizing honour more than life itself, decided on attempting at any risk to return to <placeName>Spain</placeName>.
  </p>
 
@@ -1748,10 +1749,10 @@ and that in an island called Ocoloro, below <placeName>Java Major</placeName>, t
  If God had not granted us favourable weather, we should all have perished of hunger.</p>
 
 <p n="244">Constrained by extreme necessity, we decided on touching at the <placeName>Cape Verde Islands</placeName>, and on <date when='7-9-1522'>Wednesday the 9th of July</date>, we touched at one of those islands named St. James's.
- Knowing that we were in an enemy's country, and amongst suspicious persons, on sending the boat ashore to get provision of victuals, we charged the seamen to say to the <nationality>Portuguese</nationality> that we had sprung our foremast under the equinoctial line (although this misfortune had happened at the <placeName><placeName decLon='18.4740'>Cape of Good Hope</placeName></placeName>), and that our ship was alone, because whilst we tried to repair it, our captain-general had gone with the other two ships to <placeName>Spain</placeName>.
+ Knowing that we were in an enemy's country, and amongst suspicious persons, on sending the boat ashore to get provision of victuals, we charged the seamen to say to the <ethnicGroup>Portuguese</ethnicGroup> that we had sprung our foremast under the equinoctial line (although this misfortune had happened at the <placeName>Cape of Good Hope</placeName>), and that our ship was alone, because whilst we tried to repair it, our captain-general had gone with the other two ships to <placeName>Spain</placeName>.
  With these good words, and giving some of our merchandise in exchange, we obtained two boat-loads of rice.</p>
 
-<p n="245">In order to see whether we had kept an exact account of the days, we charged those who went ashore to ask what day of the week it was, and they were told by the <nationality>Portuguese</nationality> inhabitants of the island that it was Thursday, which was a great cause of wondering to us, since with us it was only Wednesday.
+<p n="245">In order to see whether we had kept an exact account of the days, we charged those who went ashore to ask what day of the week it was, and they were told by the <ethnicGroup>Portuguese</ethnicGroup> inhabitants of the island that it was Thursday, which was a great cause of wondering to us, since with us it was only Wednesday.
  We could not persuade ourselves that we were mistaken; and I was more surprised than the others, since having always been in good health, I had every day, without intermission, written down the day that was current.
  But we were afterwards advised that there was no error on our part, since as we had always sailed towards the west, following the course of the sun, and had returned to the same place, we must have gained twenty-four hours, as is clear to any one who reflects upon it.
  The boat, having returned for rice a second time to the shore, was detained, with thirteen menwho were in it.
@@ -1764,14 +1765,15 @@ and that in an island called Ocoloro, below <placeName>Java Major</placeName>, t
 
 <p n="247">From the day when we left this bay of San Lucar until our return thither, we reckoned that we had run more than fourteen thousand four hundred and sixty leagues, and we had completed going round the earth from East to West.</p>
 
-<p n="248"><date when='9-8-1522'>Monday the 8th of September</date>, we cast anchor near the mole of <placeName><placeName decLat='37.3891' decLon='-5.9845'>Seville</placeName></placeName>, and discharged all the artillery.</p>
+<p n="248"><date when='9-8-1522'>Monday the 8th of September</date>, we cast anchor near the mole of <placeName>Seville</placeName>, and discharged all the artillery.</p>
 
-<p n="249"><date when='9-9-1522'>Tuesday</date>, we all went in shirts and barefoot, with a taper in our hands to visit the shrine of <persName>St. Maria of Victory</persName>, and of St. Maria de Antigua.</p>
+<p n="249"><date when='9-9-1522'>Tuesday</date>, we all went in shirts and barefoot, with a taper in our hands to visit the shrine of <persName>St. Maria of Victory</persName>, and of <persName>St. Maria de Antigua</persName>.</p>
 
-<p n="250">Then, leaving <placeName><placeName decLat='37.3891' decLon='-5.9845'>Seville</placeName></placeName>, I went to <placeName>Valladolid</placeName>, where I presented to his Sacred Majesty Don Carlos, neither gold nor silver, but things much more precious in the eyes of so great a Sovereign.
+<p n="250">Then, leaving <placeName>Seville</placeName>, I went to <placeName>Valladolid</placeName>, where I presented to his Sacred Majesty Don Carlos, neither gold nor silver, but things much more precious in the eyes of so great a Sovereign.
  I presented to him among other things, a book written by my hand of all the things that had occurred day by day in our voyage.
  I departed thence as I was best able, and went to Portugal, and related to <persName>King John</persName> the things which I had seen.
  Returning through <placeName>Spain</placeName>, I came to <placeName>France</placeName>, where I presented a few things from the other hemisphere to Madam the Regent, mother of the most Christian<persName> King Don Francis</persName>.
- Afterwards, I turned towards <placeName>Italy</placeName>, where I established for ever my abode, and devoted my leisure and vigils to the very illustrious and noble lord, <persName>Philip de Villiers Lisleadam</persName>, the very worthy grand master of Rhodes.</p></bookContents>
+ Afterwards, I turned towards <placeName>Italy</placeName>, where I established for ever my abode, and devoted my leisure and vigils to the very illustrious and noble lord, <persName>Philip de Villiers Lisleadam</persName>, the very worthy grand master of Rhodes.</p>
+</book>
 </body>
 </magellan>
