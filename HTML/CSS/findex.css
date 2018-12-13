@@ -6,9 +6,14 @@ html{
     background-attachment: fixed;
     background-size: 100%;
     }
-h2 {
-    font-variant: small-caps;
-    font-family: georgia, serif;
+body {
+
+    }
+    span.license {
+    font-style: italic;
+    font-family: courier, monospace, serif;
+    text-align: left;
+    font-size: 80%
 }
 h1 {
     font-family: 'Tangerine', serif;
@@ -17,52 +22,42 @@ h1 {
     font-size: 300%;
     text-align: center
 }
-body{
-    }
-div.javascript {
-    font-family: courier, monospace, serif;
+h2 {
+    font-variant: small-caps;
+    font-family: georgia, serif;
 }
-div.main {
-    font-size: 100%;
-    text-align: center;
+div.about {
+    
+    text-align: left;
     color: black;
-    line-height: 150%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
     padding-bottom: 3%;
-    width: 63%;
+    width: 30%;
     margin-left: 13%;
     margin-top: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+    float: left;
     background: white;
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    }
-p {
+    line-height: 150%
+}
+div.descript {
     font-family: courier, monospace, serif;
+    color: black;
+    line-height: 150%;
+    font-size: 100%
 }
-
-span.ref {
-    font-size: 70%
+img {
+    float: right;
+    max-width: 37%;
+    margin-right: 12%;
+    margin-top: 5%;
+    margin-bottom: 5%
 }
-span.source {
-    font-style: italic
-}
-span.license {
-    font-style: italic;
-    font-family: courier, monospace, serif;
-    text-align: left;
-    font-size: 80%
-}
-div.files {
-    text-align: left;
-}
-a {
-    color: #405A79
-}
-
 /* menu */
 ul
 {
@@ -84,13 +79,3 @@ a.top {
     text-decoration: none;
     display: inline-block;
 }
-
-/* java */
-span.persName.on {background-color:#E0C5FE}
-span.placeName.on {background-color:#C5E9FE}
-span.date.on {background-color:#AAFEB3}
-span.ethnicGroup.on {background-color:#FEE2AA}
-span.rank.on {background-color:#A1B6EF}
-span.term.on {background-color:#CDCCCC}
-
-
