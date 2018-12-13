@@ -19,7 +19,7 @@ function toggle() {
         break;
         case "placetoggle": {
             var place = document.getElementsByClassName("placeName");
-            for (var i = 0; i < Writ.length; i++) {
+            for (var i = 0; i < place.length; i++) {
                 place[i].style.backgroundColor = "#C5E9FE"
             }
         };
@@ -33,28 +33,28 @@ function toggle() {
      break;
         case "egtoggle": {
             var eg = document.getElementsByClassName("ethnicGroup");
-            for (var i = 0; i < loc.length; i++) {
+            for (var i = 0; i < eg.length; i++) {
                 eg[i].style.backgroundColor = "#FEE2AA"
             }
     };
      break;
         case "ranktoggle": {
             var rank = document.getElementsByClassName("rank");
-            for (var i = 0; i < org.length; i++) {
+            for (var i = 0; i < rank.length; i++) {
                 rank[i].style.backgroundColor = "#A1B6EF"
             }
     };
      break;
         case "termtoggle": {
             var term = document.getElementsByClassName("term");
-            for (var i = 0; i < City.length; i++) {
+            for (var i = 0; i < term.length; i++) {
                 term[i].style.backgroundColor = "#CDCCCC"
             }
         };
          break;
         case "nametoggle": {
             var name = document.getElementsByClassName("name");
-            for (var i = 0; i < Nat.length; i++) {
+            for (var i = 0; i < name.length; i++) {
                name[i].style.backgroundColor = "#A1B6EF"
             }
     };
