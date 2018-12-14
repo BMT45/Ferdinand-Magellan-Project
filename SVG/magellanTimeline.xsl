@@ -34,7 +34,18 @@
                         fill       : cyan;
                         "><xsl:value-of select="$earliest + position() -1"/></text>
                 </xsl:for-each>
+                <g>
+                        <xsl:variable name="para" select="p"/>
+                        <xsl:variable name="year" select="date"/>
+                        <circle cx="{150 + position()*50}" cy="{$para}" r="6" fill="black"/> 
+                        <line x1="0" x2="{150 + position()*50}" y1="{$para}" y2="{$year}" stroke="black" stroke-width="1.5"/> 
+                        <text x="{375 + position()*50}" y="{$para}" text-anchor="middle" style="font-family: Arial;
+                            font-size  : 20;
+                            stroke     : black;
+                            fill       : cyan;"/>
+                </g>    
             </g>
+            
         </svg>        
     </xsl:template>
 </xsl:stylesheet>
